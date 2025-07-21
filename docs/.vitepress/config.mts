@@ -60,6 +60,6 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/ChinaCarlos" }],
     // 部署的时候需要注意该参数避免样式丢失
     // 移除themeConfig内部的base属性
-    // base: "/vitepress-blog-template/",
+    base: "/vitepress-blog-template/",
   },
 });
