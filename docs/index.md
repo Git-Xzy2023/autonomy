@@ -2,28 +2,25 @@
 layout: home
 
 hero:
-  name: "China Carlos's Blog"
-  text: "PWA FAST SDK"
-  tagline: Carlos's Blog Web Site
+  name: "学习文档"
+  text: ""
+  tagline: 
   image:
     src: /pwa.svg
     alt: VitePress
   actions:
     - theme: brand
-      text: FAST PWA SDK API
-      link: https://carlosme.fun
+      text: 我的博客
+      link: /api-examples
     - theme: alt
-      text: PWA 应用案例
-      link: https://carlosme.fun
+      text: 前端学习
+      link: /api-examples
     - theme: alt
       text: 我的博客
-      link: https://carlosme.fun
+      link: /api-examples
     - theme: alt
       text: 前端面经
-      link: https://carlosme.fun
-    - theme: alt
-      text: 支持一下
-      link: https://carlosme.fun
+      link: /api-examples
 
 features:
   - title: 什么是PWA渐进式应用？
