@@ -63,4 +63,5 @@ features:
     link: https://carlosme.fun
     linkText: 查看详情
 ---
-
+<confetti />
+<VisitorPanel />
