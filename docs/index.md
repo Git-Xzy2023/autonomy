@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 我的博客
-      link: /api-examples
+      link: /learning
     - theme: alt
       text: 前端学习
-      link: /api-examples
+      link: /learning/JavaScript/JS-proxy
     - theme: alt
       text: 我的博客
       link: /api-examples
