@@ -1,6 +1,14 @@
 import { defineConfig } from "vitepress";
+import { generateSidebar } from "vitepress-sidebar";
 import nav from "./nav.mts";
 import sidebar from './sidebar.mts'
+const vitepressSidebarOptions = { 
+  documentRootPath: "/docs", 
+  collapsed: false, //折叠组关闭 
+  collapseDepth: 1, //折叠组2级菜单 
+  removePrefixAfterOrdering: true, //删除前缀，必须与prefixSeparator一起使用
+  prefixSeparator: "_", //删除前缀的符号
+}; 
 export default defineConfig({
   title: "Autonomy",
   description: "A VitePress Site",
@@ -45,6 +53,7 @@ export default defineConfig({
     },
     nav,
     // 将sidebar从数组改为对象形式，实现路径匹配
+    // sidebar: generateSidebar(vitepressSidebarOptions), 
     sidebar,
     // 社交链接
     socialLinks: [{ icon: "github", link: "https://github.com/ChinaCarlos" }],

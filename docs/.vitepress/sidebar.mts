@@ -28,7 +28,6 @@ export default {
         text: 'JavaScript',
         items: [
           { text: 'JavaScript', link: '/interview/JavaScript/111' },
-          { text: 'JavaScript', link: '/interview/JavaScript/index.html' },
         ]
       }
     ],
