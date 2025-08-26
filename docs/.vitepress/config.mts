@@ -56,7 +56,7 @@ export default defineConfig({
     // sidebar: generateSidebar(vitepressSidebarOptions), 
     sidebar,
     // 社交链接
-    socialLinks: [{ icon: "github", link: "https://github.com/ChinaCarlos" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Git-Xzy2023" }],
 
   },
 });
