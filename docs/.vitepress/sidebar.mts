@@ -4,9 +4,7 @@ export default {
       {
         text: 'JavaScript',
         items: [
-          { text: '深度学习 Proxy', link: '/learning/JavaScript/JS-proxy' }, // 相对路径
-          // 可添加其他JavaScript文档
-          // { text: 'Promise详解', link: 'JS-promise' }
+          { text: '深度学习 Proxy', link: '/learning/JavaScript/JS-proxy' },
         ]
       }
     ],
@@ -16,7 +14,7 @@ export default {
       {
         text: 'TypeScript',
         items: [
-          { text: 'TypeScript 基础', link: '/learning/TypeScript/TS-base' }, // 修正为learning路径
+          { text: 'TypeScript 基础', link: '/learning/TypeScript/TS-base' },
           { text: 'TypeScript 进阶', link: '/learning/TypeScript/TS-advance' }
         ]
       }
@@ -36,6 +34,56 @@ export default {
         text: 'TypeScript',
         items: [
           { text: 'TypeScript', link: '/interview/TypeScript/222' },
+        ]
+      }
+    ],
+    
+    // Java 分类
+    '/java/': [
+      {
+        text: 'Java',
+        items: [
+          { text: 'Java 学习', link: '/java/' },
+        ]
+      }
+    ],
+    
+    // Python 分类
+    '/python/': [
+      {
+        text: 'Python',
+        items: [
+          { text: 'Python 学习', link: '/python/' },
+        ]
+      }
+    ],
+    
+    // Go 分类
+    '/go/': [
+      {
+        text: 'Go',
+        items: [
+          { text: 'Go 学习', link: '/go/' },
+        ]
+      }
+    ],
+    
+    // 英语分类
+    '/english/': [
+      {
+        text: '英语',
+        items: [
+          { text: '英语学习', link: '/english/' },
+        ]
+      }
+    ],
+    
+    // 诗词分类
+    '/poetry/': [
+      {
+        text: '诗词',
+        items: [
+          { text: '诗词学习', link: '/poetry/' },
         ]
       }
     ],

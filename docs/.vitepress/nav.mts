@@ -1,19 +1,16 @@
-export default  [
-    { text: "Home", link: "/" },
-    // 前端学习分类（URL包含/learning前缀）
-    { 
-      text: "前端学习",
-      items: [
-        { text: "JavaScript", link: "/learning/JavaScript/JS-proxy" },  // 添加/learning前缀
-        { text: "TypeScript", link: "/learning/TypeScript/TS-base" }   // 添加/learning前缀
-      ]
-    },
-    // 前端面试分类（保持原有URL结构）
-    { 
-      text: "前端面试",
-      items: [
-        { text: "JavaScript", link: "/interview/JavaScript/111" },
-        { text: "TypeScript", link: "/interview/TypeScript/222" }
-      ]
-    }
-  ]
+export default [
+  { text: "首页", link: "/" },
+  { text: "前端", link: "/learning" },
+  { text: "Java", link: "/java" },
+  { text: "Python", link: "/python" },
+  { text: "Go", link: "/go" },
+  { text: "英语", link: "/english" },
+  { text: "诗词", link: "/poetry" },
+  {
+    text: "前端面试",
+    items: [
+      { text: "JavaScript", link: "/interview/JavaScript/111" },
+      { text: "TypeScript", link: "/interview/TypeScript/222" },
+    ],
+  },
+];
