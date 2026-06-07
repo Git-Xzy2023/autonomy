@@ -1,19 +1,167 @@
 export default {
+  // 面试题-首页
+  "/interview/": [
+    {
+      text: "面试题",
+      items: [
+        { text: "前端面试题", link: "/interview/frontend/" },
+        { text: "Java 面试题", link: "/interview/" },
+        { text: "Python 面试题", link: "/interview/" },
+        { text: "Go 面试题", link: "/interview/" },
+      ],
+    },
+  ],
+
+  // 面试题-前端面试题
+  "/interview/frontend/": [
+    {
+      text: "前端面试题",
+      items: [
+        { text: "网络", link: "/interview/frontend/network" },
+        { text: "浏览器渲染", link: "/interview/frontend/browser" },
+        { text: "CSS", link: "/interview/frontend/css" },
+        { text: "JavaScript", link: "/interview/frontend/javascript" },
+        { text: "TypeScript", link: "/interview/frontend/typescript" },
+        { text: "Vue", link: "/interview/frontend/vue" },
+        { text: "React", link: "/interview/frontend/react" },
+        { text: "Node.js", link: "/interview/frontend/nodejs" },
+        { text: "工程化", link: "/interview/frontend/engineering" },
+      ],
+    },
+  ],
   // 前端学习-首页
   "/web/": [
     {
       text: "前端学习",
       items: [
+        { text: "样式相关", link: "/web/styles/" },
+        { text: "JavaScript 相关", link: "/web/javascript/" },
+        { text: "浏览器相关", link: "/web/browser/" },
+        { text: "网络相关", link: "/web/network/" },
+        { text: "Vue 生态", link: "/web/vue-ecosystem/" },
+        { text: "React 生态", link: "/web/react-ecosystem/" },
+        { text: "工程化相关", link: "/web/engineering/" },
+        { text: "Node.js 相关", link: "/web/nodejs/" },
+        { text: "桌面端", link: "/web/desktop/" },
+        { text: "Git", link: "/web/git/" },
+        { text: "H5", link: "/web/h5/" },
+        { text: "小程序", link: "/web/miniprogram/" },
+        { text: "功能架构相关", link: "/web/architecture/" },
+      ],
+    },
+  ],
+
+  // 前端学习-样式相关
+  "/web/styles/": [
+    {
+      text: "样式相关",
+      items: [
+        { text: "CSS", link: "/web/css/" },
+        { text: "Sass/SCSS", link: "/web/css/07-preprocessor/" },
+        { text: "Less", link: "/web/css/07-preprocessor/" },
+      ],
+    },
+  ],
+
+  // 前端学习-JavaScript 相关
+  "/web/javascript/": [
+    {
+      text: "JavaScript 相关",
+      items: [
         { text: "JavaScript", link: "/web/JavaScript/JS-proxy" },
         { text: "TypeScript", link: "/web/TypeScript/TS-base" },
-        { text: "Node.js", link: "/web/node/" },
-        { text: "Vue.js", link: "/web/vue/" },
-        { text: "React", link: "/web/react/" },
+      ],
+    },
+  ],
+
+  // 前端学习-浏览器相关
+  "/web/browser/": [
+    {
+      text: "浏览器相关",
+      items: [],
+    },
+  ],
+
+  // 前端学习-网络相关
+  "/web/network/": [
+    {
+      text: "网络相关",
+      items: [],
+    },
+  ],
+
+  // 前端学习-Vue 生态
+  "/web/vue-ecosystem/": [
+    {
+      text: "Vue 生态",
+      items: [{ text: "Vue.js", link: "/web/vue/" }],
+    },
+  ],
+
+  // 前端学习-React 生态
+  "/web/react-ecosystem/": [
+    {
+      text: "React 生态",
+      items: [{ text: "React", link: "/web/react/" }],
+    },
+  ],
+
+  // 前端学习-工程化相关
+  "/web/engineering/": [
+    {
+      text: "工程化相关",
+      items: [
         { text: "Webpack", link: "/web/webpack/" },
         { text: "Vite", link: "/web/vite/" },
-        { text: "CSS", link: "/web/css/" },
-        { text: "HTML", link: "/web/html/" },
       ],
+    },
+  ],
+
+  // 前端学习-Node.js 相关
+  "/web/nodejs/": [
+    {
+      text: "Node.js 相关",
+      items: [{ text: "Node.js", link: "/web/node/" }],
+    },
+  ],
+
+  // 前端学习-桌面端
+  "/web/desktop/": [
+    {
+      text: "桌面端",
+      items: [],
+    },
+  ],
+
+  // 前端学习-Git
+  "/web/git/": [
+    {
+      text: "Git",
+      items: [],
+    },
+  ],
+
+  // 前端学习-H5
+  "/web/h5/": [
+    {
+      text: "H5",
+      items: [],
+    },
+  ],
+
+  // 前端学习-小程序
+  "/web/miniprogram/": [
+    {
+      text: "小程序",
+      items: [],
+    },
+  ],
+
+  // 前端学习-功能架构相关
+  "/web/architecture/": [
+    {
+      text: "功能架构相关",
+      items: [],
     },
   ],
 

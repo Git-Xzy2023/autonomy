@@ -20,6 +20,11 @@ hero:
       link: https://juejin.cn/user/2049145407026856/posts
 
 features:
+  - title: 面试题
+    icon: 📝
+    details: 前端、Java、Python、Go 等面试题集合
+    link: /interview
+    linkText: 开始刷题
   - title: 前端
     icon: 🖥️
     details: HTML、CSS、JavaScript、TypeScript、Vue、React 等前端技术学习笔记

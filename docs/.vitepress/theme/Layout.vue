@@ -43,7 +43,7 @@ watch(isDark, (dark) => {
 
   iframe?.contentWindow?.postMessage(
     { giscus: { setConfig: { theme: dark ? "dark" : "light" } } },
-    "https://giscus.app"
+    "https://giscus.app",
   );
 });
 </script>
