@@ -14,17 +14,16 @@ hero:
       link: https://git-xzy2023.github.io/autonomy/
     - theme: alt
       text: 前端学习
-      link: /learning
+      link: /web
     - theme: alt
       text: 我的掘金
       link: https://juejin.cn/user/2049145407026856/posts
-
 
 features:
   - title: 前端
     icon: 🖥️
     details: HTML、CSS、JavaScript、TypeScript、Vue、React 等前端技术学习笔记
-    link: /learning
+    link: /web
     linkText: 开始学习
   - title: Java
     icon: ☕
@@ -52,5 +51,6 @@ features:
     link: /poetry
     linkText: 开始学习
 ---
+
 <confetti />
 <VisitorPanel />

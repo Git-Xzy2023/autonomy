@@ -1,6 +1,6 @@
 export default [
   { text: "首页", link: "/" },
-  { text: "前端", link: "/learning" },
+  { text: "前端", link: "/web" },
   { text: "Java", link: "/java" },
   { text: "Python", link: "/python" },
   { text: "Go", link: "/go" },
