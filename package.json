@@ -1,0 +1,26 @@
+{
+  "name": "myPress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@giscus/vue": "^3.1.1",
+    "vitepress": "^1.6.3",
+    "vitepress-sidebar": "^1.32.1",
+    "vue": "3.5.17"
+  },
+  "dependencies": {
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3"
+  }
+}
