@@ -25,6 +25,11 @@ features:
     details: 基础、闭包、原型、异步、ES6+
     link: /interview/frontend/javascript
     linkText: 开始刷题
+  - title: ES 新特性
+    icon: ✨
+    details: ES6/ES2015-ES2024 新语法与新 API
+    link: /interview/frontend/es
+    linkText: 开始刷题
   - title: TypeScript
     icon: 📘
     details: 类型系统、高级类型、类型体操
