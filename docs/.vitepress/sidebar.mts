@@ -78,7 +78,12 @@ export default {
   "/web/browser/": [
     {
       text: "浏览器相关",
-      items: [],
+      items: [
+        { text: "浏览器原理", link: "/web/browser/01-principle/" },
+        { text: "Web API", link: "/web/browser/02-web-api/" },
+        { text: "性能优化", link: "/web/browser/03-performance/" },
+        { text: "浏览器存储", link: "/web/browser/04-storage/" },
+      ],
     },
   ],
 
@@ -111,8 +116,12 @@ export default {
     {
       text: "工程化相关",
       items: [
-        { text: "Webpack", link: "/web/webpack/" },
-        { text: "Vite", link: "/web/vite/" },
+        { text: "Webpack", link: "/web/engineering/01-webpack/" },
+        { text: "Vite", link: "/web/engineering/02-vite/" },
+        { text: "Rollup", link: "/web/engineering/03-rollup/" },
+        { text: "包管理器", link: "/web/engineering/04-package-manager/" },
+        { text: "CI/CD", link: "/web/engineering/05-ci-cd/" },
+        { text: "代码规范与工具链", link: "/web/engineering/06-code-quality/" },
       ],
     },
   ],
