@@ -53,13 +53,31 @@ export default {
 
   // 前端学习-样式相关
   "/web/styles/": [
+    { text: "📖 样式技术学习指南", link: "/web/styles/" },
     {
-      text: "样式相关",
+      text: "📘 CSS",
       items: [
-        { text: "CSS", link: "/web/css/" },
-        { text: "Sass/SCSS", link: "/web/css/07-preprocessor/" },
-        { text: "Less", link: "/web/css/07-preprocessor/" },
+        { text: "CSS 基础", link: "/web/styles/css/01-basics/" },
+        { text: "选择器", link: "/web/styles/css/02-selectors/" },
+        { text: "盒模型", link: "/web/styles/css/03-box-model/" },
+        { text: "布局", link: "/web/styles/css/04-layout/" },
+        { text: "响应式设计", link: "/web/styles/css/05-responsive/" },
+        { text: "动画和过渡", link: "/web/styles/css/06-animation/" },
+        { text: "预处理器", link: "/web/styles/css/07-preprocessor/" },
+        { text: "最佳实践", link: "/web/styles/css/08-best-practices/" },
       ],
+    },
+    {
+      text: "💅 Sass",
+      items: [{ text: "Sass 入门", link: "/web/styles/sass/" }],
+    },
+    {
+      text: "🎯 Less",
+      items: [{ text: "Less 入门", link: "/web/styles/less/" }],
+    },
+    {
+      text: "🌪️ Tailwind CSS",
+      items: [{ text: "Tailwind 入门", link: "/web/styles/tailwind/" }],
     },
   ],
 
@@ -298,23 +316,6 @@ export default {
     {
       text: "Vite",
       items: [{ text: "Vite 学习", link: "/web/vite/" }],
-    },
-  ],
-
-  // 前端学习-CSS分类
-  "/web/css/": [
-    {
-      text: "CSS 学习",
-      items: [
-        { text: "CSS 基础", link: "/web/css/01-basics/" },
-        { text: "选择器", link: "/web/css/02-selectors/" },
-        { text: "盒模型", link: "/web/css/03-box-model/" },
-        { text: "布局", link: "/web/css/04-layout/" },
-        { text: "响应式设计", link: "/web/css/05-responsive/" },
-        { text: "动画和过渡", link: "/web/css/06-animation/" },
-        { text: "预处理器", link: "/web/css/07-preprocessor/" },
-        { text: "最佳实践", link: "/web/css/08-best-practices/" },
-      ],
     },
   ],
 

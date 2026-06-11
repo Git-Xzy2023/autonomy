@@ -16,9 +16,9 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   // 将base属性移到这里（顶层配置）     // 部署的时候需要注意该参数避免样式丢失
   base: "/autonomy/",
-  // markdown 配置：防止内容中的 < > 字符被 Vue 解析为 HTML 标签
+  // markdown 配置：允许 HTML 标签，fenced code block 中的代码会自动转义
   markdown: {
-    html: false,
+    html: true,
   },
   themeConfig: {
     // 网站的logo

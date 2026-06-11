@@ -28,7 +28,7 @@ CSS 有**三种主要引入方式**，以及一种在现代前端工程中非常
 
 **使用场景**：
 
-- 动态计算的样式（比如 `style={{ width: calculatedValue }}`）
+- 动态计算的样式（比如 <code v-pre>style={{ width: calculatedValue }}</code>）
 - 需要覆盖所有外部样式（极少使用）
 - HTML 邮件模板（因为邮件客户端对外部 CSS 支持较差）
 

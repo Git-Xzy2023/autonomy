@@ -51,25 +51,25 @@ CD（Continuous Delivery/Deployment） 持续交付/部署
 
 ### 1.2 为什么需要 CI/CD
 
-| 优势 | 说明 |
-|------|------|
-| **提高代码质量** | 自动测试和代码检查，减少错误 |
-| **加速开发效率** | 自动化流程，减少手动操作 |
-| **快速反馈** | 每次提交都能获得即时反馈 |
-| **降低风险** | 小步快跑，频繁部署，降低失败风险 |
-| **可靠部署** | 标准化流程，部署更可靠 |
-| **节省时间** | 自动化代替重复工作 |
+| 优势             | 说明                             |
+| ---------------- | -------------------------------- |
+| **提高代码质量** | 自动测试和代码检查，减少错误     |
+| **加速开发效率** | 自动化流程，减少手动操作         |
+| **快速反馈**     | 每次提交都能获得即时反馈         |
+| **降低风险**     | 小步快跑，频繁部署，降低失败风险 |
+| **可靠部署**     | 标准化流程，部署更可靠           |
+| **节省时间**     | 自动化代替重复工作               |
 
 ### 1.3 主流 CI/CD 平台
 
-| 平台 | 说明 | 适用场景 |
-|------|------|---------|
-| **GitHub Actions** | GitHub 原生支持，免费 | GitHub 项目 |
-| **GitLab CI/CD** | GitLab 原生，功能全面 | GitLab 项目 |
-| **Jenkins** | 开源，自托管，灵活 | 企业项目，需要定制化 |
-| **CircleCI** | 云服务，速度快 | 各类项目 |
-| **Travis CI** | 老牌云 CI | 开源项目 |
-| **Bitbucket Pipelines** | Bitbucket 原生 | Bitbucket 项目 |
+| 平台                    | 说明                  | 适用场景             |
+| ----------------------- | --------------------- | -------------------- |
+| **GitHub Actions**      | GitHub 原生支持，免费 | GitHub 项目          |
+| **GitLab CI/CD**        | GitLab 原生，功能全面 | GitLab 项目          |
+| **Jenkins**             | 开源，自托管，灵活    | 企业项目，需要定制化 |
+| **CircleCI**            | 云服务，速度快        | 各类项目             |
+| **Travis CI**           | 老牌云 CI             | 开源项目             |
+| **Bitbucket Pipelines** | Bitbucket 原生        | Bitbucket 项目       |
 
 ---
 
@@ -128,7 +128,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm ci
@@ -149,7 +149,7 @@ on:
   # 代码推送
   push:
     branches: [main, develop]
-    tags: ['v*']  # 匹配 tag
+    tags: ["v*"] # 匹配 tag
 
   # Pull Request
   pull_request:
@@ -159,17 +159,17 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to deploy'
+        description: "Version to deploy"
         required: true
-        default: 'latest'
+        default: "latest"
 
   # 定时任务
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 00:00
+    - cron: "0 0 * * *" # 每天 UTC 00:00
 
   # 其他工作流完成后
   workflow_run:
-    workflows: ['Build']
+    workflows: ["Build"]
     types: [completed]
 
   # 创建 Release
@@ -199,42 +199,42 @@ on:
 ```yaml
 jobs:
   ubuntu-job:
-    runs-on: ubuntu-latest    # Ubuntu 最新版本
+    runs-on: ubuntu-latest # Ubuntu 最新版本
 
   windows-job:
-    runs-on: windows-latest   # Windows
+    runs-on: windows-latest # Windows
 
   macos-job:
-    runs-on: macos-latest   # macOS
+    runs-on: macos-latest # macOS
 
   # 指定版本
   specific-version:
-    runs-on: ubuntu-22.04    # 特定版本
+    runs-on: ubuntu-22.04 # 特定版本
 ```
 
 **可用的运行环境**：
 
-| 环境 | 说明 |
-|------|------|
-| `ubuntu-latest` | 最新 Ubuntu |
-| `ubuntu-22.04` | Ubuntu 22.04 |
-| `windows-latest` | 最新 Windows Server |
-| `windows-2022` | Windows Server 2022 |
-| `macos-latest` | 最新 macOS |
-| `macos-14` | macOS 14 (M1/M2 芯片）|
+| 环境             | 说明                   |
+| ---------------- | ---------------------- |
+| `ubuntu-latest`  | 最新 Ubuntu            |
+| `ubuntu-22.04`   | Ubuntu 22.04           |
+| `windows-latest` | 最新 Windows Server    |
+| `windows-2022`   | Windows Server 2022    |
+| `macos-latest`   | 最新 macOS             |
+| `macos-14`       | macOS 14 (M1/M2 芯片） |
 
 ### 2.5 常用 Actions（Actions）是可复用的单元
 
-| Action | 说明 |
-|--------|------|
-| `actions/checkout` | 检出代码 |
-| `actions/setup-node` | 设置 Node.js |
-| `actions/setup-python` | 设置 Python |
-| `actions/cache` | 缓存依赖 |
-| `actions/upload-artifact` | 上传构建产物 |
-| `actions/download-artifact` | 下载构建产物 |
-| `actions/deploy-pages` | 部署到 GitHub Pages |
-| `actions/github-script` | 运行 JavaScript |
+| Action                      | 说明                |
+| --------------------------- | ------------------- |
+| `actions/checkout`          | 检出代码            |
+| `actions/setup-node`        | 设置 Node.js        |
+| `actions/setup-python`      | 设置 Python         |
+| `actions/cache`             | 缓存依赖            |
+| `actions/upload-artifact`   | 上传构建产物        |
+| `actions/download-artifact` | 下载构建产物        |
+| `actions/deploy-pages`      | 部署到 GitHub Pages |
+| `actions/github-script`     | 运行 JavaScript     |
 
 **Checkout 示例**：
 
@@ -242,7 +242,7 @@ jobs:
 - name: Checkout code
   uses: actions/checkout@v4
   with:
-    fetch-depth: 0  # 获取完整历史
+    fetch-depth: 0 # 获取完整历史
 ```
 
 **Setup Node.js 示例**：
@@ -251,8 +251,8 @@ jobs:
 - name: Setup Node.js
   uses: actions/setup-node@v4
   with:
-    node-version: '20'
-    cache: 'npm'   # 或 'pnpm', 'yarn'
+    node-version: "20"
+    cache: "npm" # 或 'pnpm', 'yarn'
 ```
 
 **缓存依赖**：
@@ -312,7 +312,7 @@ jobs:
 
 1. GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret
 2. 添加密钥名称（如 `SSH_HOST`、`API_KEY`）
-3. 在工作流中使用 `${{ secrets.NAME }}`
+3. 在工作流中使用 <code v-pre>${{ secrets.NAME }}</code>
 
 ### 2.7 完整示例：前端项目 CI
 
@@ -341,7 +341,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -372,7 +372,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm ci
@@ -411,8 +411,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'pnpm'
+          node-version: "20"
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -483,7 +483,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm ci
       - run: npm run build
       - uses: amondnet/vercel-action@v25
@@ -491,7 +491,7 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
-          vercel-args: '--prod'
+          vercel-args: "--prod"
 ```
 
 **Netlify**：
@@ -506,7 +506,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm ci
       - run: npm run build
       - uses: nwtgck/actions-netlify@v3
@@ -542,7 +542,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v5
@@ -571,7 +571,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm ci
       - run: npm run build
 
@@ -652,7 +652,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm ci
 
       - name: Lint code
@@ -679,6 +679,7 @@ CI/CD 是现代前端工程化的重要组成部分：
 - **自动化部署**：快速发布流程
 
 **学习建议**：
+
 1. 从 GitHub Actions 开始，它是最简单的入门
 2. 学习 YAML 语法和基本概念
 3. 实现基础工作流
@@ -688,6 +689,7 @@ CI/CD 是现代前端工程化的重要组成部分：
 ---
 
 > **参考资源**：
+>
 > - GitHub Actions 文档：https://docs.github.com/actions
 > - GitLab CI/CD 文档：https://docs.gitlab.com/ee/ci/
 > - 精选 Actions：https://github.com/marketplace?type=actions
