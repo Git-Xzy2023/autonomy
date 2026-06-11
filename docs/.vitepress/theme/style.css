@@ -110,6 +110,11 @@
   border-left: 5px solid var(--vp-c-red-3);
 }
 
+/* 侧边栏宽度 - 面试题名称较长，加宽侧边栏 */
+:root {
+  --vp-sidebar-width: 340px;
+}
+
 /* 侧边栏 */
 .group:has([role="button"]) .VPSidebarItem.level-0 .items {
   padding-left: 16px !important;
