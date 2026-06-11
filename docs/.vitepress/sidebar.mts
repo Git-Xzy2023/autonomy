@@ -17,8 +17,8 @@ export default {
     {
       text: "前端面试题",
       items: [
-        { text: "网络", link: "/interview/frontend/network" },
-        { text: "浏览器渲染", link: "/interview/frontend/browser" },
+        { text: "网络", link: "/interview/frontend/network/" },
+        { text: "浏览器渲染", link: "/interview/frontend/browser/" },
         { text: "CSS", link: "/interview/frontend/css" },
         { text: "JavaScript", link: "/interview/frontend/javascript" },
         { text: "TypeScript", link: "/interview/frontend/typescript" },
@@ -26,6 +26,114 @@ export default {
         { text: "React", link: "/interview/frontend/react" },
         { text: "Node.js", link: "/interview/frontend/nodejs" },
         { text: "工程化", link: "/interview/frontend/engineering" },
+      ],
+    },
+  ],
+
+  // 面试题-网络
+  "/interview/frontend/network/": [
+    {
+      text: "网络面试题",
+      items: [
+        {
+          text: "常见的 HTTP 方法有哪些？",
+          link: "/interview/frontend/network/",
+        },
+        {
+          text: "GET 与 POST 的区别",
+          link: "/interview/frontend/network/get-vs-post",
+        },
+        {
+          text: "HTTP 报文结构",
+          link: "/interview/frontend/network/http-message",
+        },
+        {
+          text: "HTTP 常见的状态码有哪些？",
+          link: "/interview/frontend/network/http-status-code",
+        },
+        {
+          text: "HTTP 如何优化？",
+          link: "/interview/frontend/network/http-optimize",
+        },
+        {
+          text: "前端需要注意哪些 HTTP？",
+          link: "/interview/frontend/network/http-frontend",
+        },
+        {
+          text: "HTTP 和 HTTPS 的区别",
+          link: "/interview/frontend/network/https",
+        },
+        {
+          text: "HTTP 与 HTTP2.0 的区别",
+          link: "/interview/frontend/network/http2",
+        },
+        { text: "什么是 XSS 攻击？", link: "/interview/frontend/network/xss" },
+        {
+          text: "什么是 CSRF 攻击？",
+          link: "/interview/frontend/network/csrf",
+        },
+        { text: "什么是 DNS？", link: "/interview/frontend/network/dns" },
+        {
+          text: "TCP 和 UDP 的区别",
+          link: "/interview/frontend/network/tcp-udp",
+        },
+        {
+          text: "TCP 的流量控制",
+          link: "/interview/frontend/network/tcp-flow-control",
+        },
+        {
+          text: "TCP 的可靠传输机制",
+          link: "/interview/frontend/network/tcp-reliable",
+        },
+        {
+          text: "TCP 的三次握手和四次挥手",
+          link: "/interview/frontend/network/tcp-handshake",
+        },
+        {
+          text: "TCP 粘包问题",
+          link: "/interview/frontend/network/tcp-sticky",
+        },
+        { text: "WebSocket", link: "/interview/frontend/network/websocket" },
+      ],
+    },
+  ],
+
+  // 面试题-浏览器渲染
+  "/interview/frontend/browser/": [
+    {
+      text: "浏览器面试题",
+      items: [
+        { text: "什么是 XSS 攻击？", link: "/interview/frontend/browser/" },
+        {
+          text: "什么是 CSRF 攻击？",
+          link: "/interview/frontend/browser/csrf",
+        },
+        {
+          text: "什么是中间人攻击？",
+          link: "/interview/frontend/browser/mitm",
+        },
+        {
+          text: "进程与线程的概念",
+          link: "/interview/frontend/browser/process-thread",
+        },
+        {
+          text: "浏览器渲染进程有哪些线程？",
+          link: "/interview/frontend/browser/threads",
+        },
+        { text: "浏览器缓存机制", link: "/interview/frontend/browser/cache" },
+        {
+          text: "F5、Ctrl+F5、地址栏回车有什么区别？",
+          link: "/interview/frontend/browser/refresh",
+        },
+        { text: "浏览器组成", link: "/interview/frontend/browser/composition" },
+        {
+          text: "浏览器的渲染过程",
+          link: "/interview/frontend/browser/render",
+        },
+        { text: "浏览器存储方式", link: "/interview/frontend/browser/storage" },
+        { text: "同源策略与跨域", link: "/interview/frontend/browser/cors" },
+        { text: "浏览器事件机制", link: "/interview/frontend/browser/event" },
+        { text: "事件循环", link: "/interview/frontend/browser/event-loop" },
       ],
     },
   ],
