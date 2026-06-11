@@ -107,11 +107,24 @@ export default {
     },
     {
       text: "📘 TypeScript",
-      items: [{ text: "TypeScript 入门", link: "/web/JavaScript/typescript/" }],
+      items: [
+        { text: "TS 基础", link: "/web/JavaScript/typescript/01-basics/" },
+        { text: "类型系统", link: "/web/JavaScript/typescript/02-types/" },
+        { text: "高级特性", link: "/web/JavaScript/typescript/03-advanced/" },
+        {
+          text: "最佳实践",
+          link: "/web/JavaScript/typescript/04-best-practices/",
+        },
+      ],
     },
     {
       text: "✨ ES6+",
-      items: [{ text: "ES6+ 入门", link: "/web/JavaScript/es6/" }],
+      items: [
+        { text: "ES6 核心特性", link: "/web/JavaScript/es6/01-core/" },
+        { text: "ES7-ES13 新特性", link: "/web/JavaScript/es6/02-modern/" },
+        { text: "内置对象扩展", link: "/web/JavaScript/es6/03-builtins/" },
+        { text: "实战应用", link: "/web/JavaScript/es6/04-practice/" },
+      ],
     },
     {
       text: "🔧 进阶",
