@@ -15,7 +15,7 @@ features:
   - title: JavaScript 相关
     icon: 📜
     details: 包含 JavaScript、TypeScript、ES 新特性等
-    link: /web/javascript/
+    link: /web/JavaScript/
     linkText: 查看全部
   - title: 浏览器相关
     icon: 🌐

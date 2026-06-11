@@ -82,13 +82,40 @@ export default {
   ],
 
   // 前端学习-JavaScript 相关
-  "/web/javascript/": [
+  "/web/JavaScript/": [
+    { text: "📖 JavaScript 技术学习指南", link: "/web/JavaScript/" },
     {
-      text: "JavaScript 相关",
+      text: "📜 JavaScript",
       items: [
-        { text: "JavaScript", link: "/web/JavaScript/JS-proxy" },
-        { text: "TypeScript", link: "/web/TypeScript/TS-base" },
+        { text: "JS 基础", link: "/web/JavaScript/javascript/01-basics/" },
+        {
+          text: "函数与作用域",
+          link: "/web/JavaScript/javascript/02-functions/",
+        },
+        { text: "对象与原型", link: "/web/JavaScript/javascript/03-objects/" },
+        { text: "异步编程", link: "/web/JavaScript/javascript/04-async/" },
+        {
+          text: "数组方法与高阶函数",
+          link: "/web/JavaScript/javascript/06-arrays/",
+        },
+        { text: "模块化", link: "/web/JavaScript/javascript/07-modules/" },
+        {
+          text: "最佳实践",
+          link: "/web/JavaScript/javascript/08-best-practices/",
+        },
       ],
+    },
+    {
+      text: "📘 TypeScript",
+      items: [{ text: "TypeScript 入门", link: "/web/JavaScript/typescript/" }],
+    },
+    {
+      text: "✨ ES6+",
+      items: [{ text: "ES6+ 入门", link: "/web/JavaScript/es6/" }],
+    },
+    {
+      text: "🔧 进阶",
+      items: [{ text: "深度学习 Proxy", link: "/web/JavaScript/JS-proxy" }],
     },
   ],
 
@@ -256,25 +283,6 @@ export default {
         { text: "宋词", link: "/poetry/song/" },
         { text: "元曲", link: "/poetry/yuan/" },
         { text: "现代诗", link: "/poetry/modern/" },
-      ],
-    },
-  ],
-
-  // 前端学习-JavaScript分类
-  "/web/JavaScript/": [
-    {
-      text: "JavaScript",
-      items: [{ text: "深度学习 Proxy", link: "/web/JavaScript/JS-proxy" }],
-    },
-  ],
-
-  // 前端学习-TypeScript分类
-  "/web/TypeScript/": [
-    {
-      text: "TypeScript",
-      items: [
-        { text: "TypeScript 基础", link: "/web/TypeScript/TS-base" },
-        { text: "TypeScript 进阶", link: "/web/TypeScript/TS-advance" },
       ],
     },
   ],
