@@ -1188,120 +1188,318 @@ export default {
       text: "Vue面试题",
       items: [
         {
-          text: "1. Vue2 响应式原理（Object.defineProperty）",
-          link: "/interview/frontend/vue/",
-        },
-        { text: "2. API 风格", link: "/interview/frontend/vue/api-风格" },
-        {
-          text: "3. computed vs watch vs methods",
-          link: "/interview/frontend/vue/computed-vs-watch-vs-methods",
-        },
-        {
-          text: "4. computed / watch / watchEffect",
-          link: "/interview/frontend/vue/computed-watch-watcheffect",
-        },
-        {
-          text: "5. computed 原理",
-          link: "/interview/frontend/vue/computed-原理",
-        },
-        {
-          text: "6. Fragments / Teleport / Suspense",
-          link: "/interview/frontend/vue/fragments-teleport-suspense",
-        },
-        {
-          text: "7. 常见面试题",
-          link: "/interview/frontend/vue/nexttick-原理-常见面试题",
-        },
-        { text: "8. setup 函数", link: "/interview/frontend/vue/setup-函数" },
-        {
-          text: "9. Vue2 nextTick 实现（src/core/util/next-tick.js）",
-          link: "/interview/frontend/vue/vue2-nexttick-实现srccoreutilnext-tickjs",
-        },
-        {
-          text: "10. Vue2 实现要点（src/core/components/keep-alive.js）",
-          link: "/interview/frontend/vue/vue2-实现要点srccorecomponentskeep-alivejs",
-        },
-        {
-          text: "11. Vue2 方式汇总",
-          link: "/interview/frontend/vue/vue2-方式汇总",
-        },
-        {
-          text: "12. Vue2 渲染全流程",
-          link: "/interview/frontend/vue/vue2-渲染全流程",
+          text: "Vue2 基础",
+          collapsed: false,
+          items: [
+            {
+              text: "1. v-model 原理与双向绑定",
+              link: "/interview/frontend/vue/101-vue2-vmodel-原理与双向绑定",
+            },
+            {
+              text: "2. slot 插槽原理与演变",
+              link: "/interview/frontend/vue/102-vue2-slot-插槽原理与演变",
+            },
+            {
+              text: "3. 自定义指令原理与钩子",
+              link: "/interview/frontend/vue/103-vue2-自定义指令原理与钩子",
+            },
+            {
+              text: "4. mixin 原理与弊端（为什么 Vue3 舍弃）",
+              link: "/interview/frontend/vue/104-vue2-mixin-原理与弊端",
+            },
+            {
+              text: "5. 过滤器原理（为什么 Vue3 移除）",
+              link: "/interview/frontend/vue/105-vue2-过滤器原理-为什么vue3移除",
+            },
+            {
+              text: "6. provide/inject 原理与响应式陷阱",
+              link: "/interview/frontend/vue/106-vue2-provide-inject-原理与响应式陷阱",
+            },
+            {
+              text: "7. 事件总线原理与弊端",
+              link: "/interview/frontend/vue/107-vue2-事件总线原理与弊端",
+            },
+            {
+              text: "8. v-for 中 key 的作用与 diff",
+              link: "/interview/frontend/vue/108-vue2-vfor-key的作用与diff",
+            },
+          ],
         },
         {
-          text: "13. Vue2 生命周期选项式",
-          link: "/interview/frontend/vue/vue2-生命周期选项式",
+          text: "Vue2 源码相关",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Observer/Dep/Watcher 三件套源码",
+              link: "/interview/frontend/vue/201-vue2-observer-dep-watcher-三件套源码",
+            },
+            {
+              text: "2. 数组方法重写源码",
+              link: "/interview/frontend/vue/202-vue2-数组方法重写源码",
+            },
+            {
+              text: "3. 异步更新队列源码",
+              link: "/interview/frontend/vue/203-vue2-异步更新队列源码",
+            },
+            {
+              text: "4. 编译器静态优化原理",
+              link: "/interview/frontend/vue/204-vue2-编译器静态优化原理",
+            },
+            {
+              text: "5. patch 双端 diff 源码",
+              link: "/interview/frontend/vue/205-vue2-patch-双端diff源码",
+            },
+            {
+              text: "6. keep-alive LRU 缓存源码",
+              link: "/interview/frontend/vue/206-vue2-keepalive-lru缓存源码",
+            },
+            {
+              text: "7. 模板编译生成 render 函数过程",
+              link: "/interview/frontend/vue/207-vue2-模板编译生成render函数过程",
+            },
+            {
+              text: "8. nextTick 微任务降级策略源码",
+              link: "/interview/frontend/vue/208-vue2-nexttick-微任务降级策略源码",
+            },
+          ],
         },
         {
-          text: "14. Vue2 的 Diff 算法（双端对比）",
-          link: "/interview/frontend/vue/vue2-的-diff-算法双端对比",
+          text: "Vue3 基础",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Composition API 设计动机",
+              link: "/interview/frontend/vue/301-vue3-composition-api-设计动机",
+            },
+            {
+              text: "2. ref vs reactive 的选择",
+              link: "/interview/frontend/vue/302-vue3-ref-vs-reactive-的选择",
+            },
+            {
+              text: "3. toRef / toRefs / toRaw 原理",
+              link: "/interview/frontend/vue/303-vue3-toref-torefs-toraw-原理",
+            },
+            {
+              text: "4. shallow 系列 API 原理",
+              link: "/interview/frontend/vue/304-vue3-shallow系列api原理",
+            },
+            {
+              text: "5. customRef 原理与防抖实战",
+              link: "/interview/frontend/vue/305-vue3-customref-原理与防抖实战",
+            },
+            {
+              text: "6. watch vs watchEffect 原理与选择",
+              link: "/interview/frontend/vue/306-vue3-watch-vs-watcheffect-原理与选择",
+            },
+            {
+              text: "7. defineProps / defineEmits / defineExpose 原理",
+              link: "/interview/frontend/vue/307-vue3-defineprops-defineemits-defineexpose-原理",
+            },
+            {
+              text: "8. Suspense 原理与异步组件",
+              link: "/interview/frontend/vue/308-vue3-suspense-原理与异步组件",
+            },
+            {
+              text: "9. Teleport 原理",
+              link: "/interview/frontend/vue/309-vue3-teleport-原理",
+            },
+            {
+              text: "10. Fragment 原理与多根节点",
+              link: "/interview/frontend/vue/310-vue3-fragment-原理与多根节点",
+            },
+          ],
         },
         {
-          text: "15. Vue2 编译三阶段",
-          link: "/interview/frontend/vue/vue2-编译三阶段",
+          text: "Vue3 源码相关",
+          collapsed: false,
+          items: [
+            {
+              text: "1. effect 调度器与响应式原理",
+              link: "/interview/frontend/vue/401-vue3-effect-调度器与响应式原理",
+            },
+            {
+              text: "2. 编译优化：静态提升 / PatchFlag / Block Tree",
+              link: "/interview/frontend/vue/402-vue3-编译优化-静态提升-patchflag-block-tree",
+            },
+            {
+              text: "3. Diff 算法：最长递增子序列",
+              link: "/interview/frontend/vue/403-vue3-diff-最长递增子序列",
+            },
+            {
+              text: "4. 渲染器原理与自定义渲染器",
+              link: "/interview/frontend/vue/404-vue3-渲染器原理与自定义渲染器",
+            },
+            {
+              text: "5. setup 语法糖编译原理",
+              link: "/interview/frontend/vue/405-vue3-setup语法糖编译原理",
+            },
+            {
+              text: "6. 异步组件与 defineAsyncComponent 原理",
+              link: "/interview/frontend/vue/406-vue3-异步组件与defineasynccomponent原理",
+            },
+            {
+              text: "7. KeepAlive 原理与缓存策略",
+              link: "/interview/frontend/vue/407-vue3-keepalive-原理与缓存策略",
+            },
+            {
+              text: "8. 响应式嵌套 effect 与依赖清理",
+              link: "/interview/frontend/vue/408-vue3-响应式嵌套effect与依赖清理",
+            },
+            {
+              text: "9. ref 自动解包原理",
+              link: "/interview/frontend/vue/409-vue3-ref自动解包原理",
+            },
+            {
+              text: "10. 编译器优化：缓存与 v-memo",
+              link: "/interview/frontend/vue/410-vue3-编译器优化-缓存与v-memo",
+            },
+          ],
         },
         {
-          text: "16. Vue3 nextTick 简化",
-          link: "/interview/frontend/vue/vue3-nexttick-简化",
-        },
-        { text: "17. Vue3 变化", link: "/interview/frontend/vue/vue3-变化" },
-        {
-          text: "18. Vue3 响应式原理（Proxy）",
-          link: "/interview/frontend/vue/vue3-响应式原理proxy",
-        },
-        {
-          text: "19. Vue3 方式汇总",
-          link: "/interview/frontend/vue/vue3-方式汇总",
-        },
-        {
-          text: "20. Vue3 渲染全流程",
-          link: "/interview/frontend/vue/vue3-渲染全流程",
-        },
-        {
-          text: "21. Vue3 生命周期（Composition API）",
-          link: "/interview/frontend/vue/vue3-生命周期composition-api",
-        },
-        {
-          text: "22. Vue3 的 Diff 优化",
-          link: "/interview/frontend/vue/vue3-的-diff-优化",
-        },
-        {
-          text: "23. Vue3 编译优化",
-          link: "/interview/frontend/vue/vue3-编译优化",
-        },
-        { text: "24. watch 原理", link: "/interview/frontend/vue/watch-原理" },
-        {
-          text: "25. 为什么需要 nextTick",
-          link: "/interview/frontend/vue/为什么需要-nexttick",
-        },
-        { text: "26. 关键差异", link: "/interview/frontend/vue/关键差异" },
-        { text: "27. 其他变化", link: "/interview/frontend/vue/其他变化" },
-        {
-          text: "28. 常见面试题",
-          link: "/interview/frontend/vue/响应式原理-常见面试题",
-        },
-        {
-          text: "29. 响应式系统改造",
-          link: "/interview/frontend/vue/响应式系统改造",
-        },
-        { text: "30. 核心作用", link: "/interview/frontend/vue/核心作用" },
-        {
-          text: "31. 核心响应式 API",
-          link: "/interview/frontend/vue/核心响应式-api",
-        },
-        { text: "32. 编译优化", link: "/interview/frontend/vue/编译优化" },
-        {
-          text: "33. 自定义组合式函数（Composables）",
-          link: "/interview/frontend/vue/自定义组合式函数composables",
-        },
-        {
-          text: "34. 常见面试题",
-          link: "/interview/frontend/vue/虚拟dom与diff算法-常见面试题",
-        },
-        {
-          text: "35. 虚拟DOM是什么",
-          link: "/interview/frontend/vue/虚拟dom是什么",
+          text: "原有题目（保留）",
+          collapsed: true,
+          items: [
+            {
+              text: "1. Vue2 响应式原理（Object.defineProperty）",
+              link: "/interview/frontend/vue/",
+            },
+            {
+              text: "2. API 风格",
+              link: "/interview/frontend/vue/api-风格",
+            },
+            {
+              text: "3. computed vs watch vs methods",
+              link: "/interview/frontend/vue/computed-vs-watch-vs-methods",
+            },
+            {
+              text: "4. computed / watch / watchEffect",
+              link: "/interview/frontend/vue/computed-watch-watcheffect",
+            },
+            {
+              text: "5. computed 原理",
+              link: "/interview/frontend/vue/computed-原理",
+            },
+            {
+              text: "6. Fragments / Teleport / Suspense",
+              link: "/interview/frontend/vue/fragments-teleport-suspense",
+            },
+            {
+              text: "7. nextTick 原理常见面试题",
+              link: "/interview/frontend/vue/nexttick-原理-常见面试题",
+            },
+            {
+              text: "8. setup 函数",
+              link: "/interview/frontend/vue/setup-函数",
+            },
+            {
+              text: "9. Vue2 nextTick 实现（src/core/util/next-tick.js）",
+              link: "/interview/frontend/vue/vue2-nexttick-实现srccoreutilnext-tickjs",
+            },
+            {
+              text: "10. Vue2 实现要点（src/core/components/keep-alive.js）",
+              link: "/interview/frontend/vue/vue2-实现要点srccorecomponentskeep-alivejs",
+            },
+            {
+              text: "11. Vue2 方式汇总",
+              link: "/interview/frontend/vue/vue2-方式汇总",
+            },
+            {
+              text: "12. Vue2 渲染全流程",
+              link: "/interview/frontend/vue/vue2-渲染全流程",
+            },
+            {
+              text: "13. Vue2 生命周期选项式",
+              link: "/interview/frontend/vue/vue2-生命周期选项式",
+            },
+            {
+              text: "14. Vue2 的 Diff 算法（双端对比）",
+              link: "/interview/frontend/vue/vue2-的-diff-算法双端对比",
+            },
+            {
+              text: "15. Vue2 编译三阶段",
+              link: "/interview/frontend/vue/vue2-编译三阶段",
+            },
+            {
+              text: "16. Vue3 nextTick 简化",
+              link: "/interview/frontend/vue/vue3-nexttick-简化",
+            },
+            {
+              text: "17. Vue3 变化",
+              link: "/interview/frontend/vue/vue3-变化",
+            },
+            {
+              text: "18. Vue3 响应式原理（Proxy）",
+              link: "/interview/frontend/vue/vue3-响应式原理proxy",
+            },
+            {
+              text: "19. Vue3 方式汇总",
+              link: "/interview/frontend/vue/vue3-方式汇总",
+            },
+            {
+              text: "20. Vue3 渲染全流程",
+              link: "/interview/frontend/vue/vue3-渲染全流程",
+            },
+            {
+              text: "21. Vue3 生命周期（Composition API）",
+              link: "/interview/frontend/vue/vue3-生命周期composition-api",
+            },
+            {
+              text: "22. Vue3 的 Diff 优化",
+              link: "/interview/frontend/vue/vue3-的-diff-优化",
+            },
+            {
+              text: "23. Vue3 编译优化",
+              link: "/interview/frontend/vue/vue3-编译优化",
+            },
+            {
+              text: "24. watch 原理",
+              link: "/interview/frontend/vue/watch-原理",
+            },
+            {
+              text: "25. 为什么需要 nextTick",
+              link: "/interview/frontend/vue/为什么需要-nexttick",
+            },
+            {
+              text: "26. 关键差异",
+              link: "/interview/frontend/vue/关键差异",
+            },
+            {
+              text: "27. 其他变化",
+              link: "/interview/frontend/vue/其他变化",
+            },
+            {
+              text: "28. 响应式原理常见面试题",
+              link: "/interview/frontend/vue/响应式原理-常见面试题",
+            },
+            {
+              text: "29. 响应式系统改造",
+              link: "/interview/frontend/vue/响应式系统改造",
+            },
+            {
+              text: "30. 核心作用",
+              link: "/interview/frontend/vue/核心作用",
+            },
+            {
+              text: "31. 核心响应式 API",
+              link: "/interview/frontend/vue/核心响应式-api",
+            },
+            {
+              text: "32. 编译优化",
+              link: "/interview/frontend/vue/编译优化",
+            },
+            {
+              text: "33. 自定义组合式函数（Composables）",
+              link: "/interview/frontend/vue/自定义组合式函数composables",
+            },
+            {
+              text: "34. 虚拟 DOM 与 Diff 算法常见面试题",
+              link: "/interview/frontend/vue/虚拟dom与diff算法-常见面试题",
+            },
+            {
+              text: "35. 虚拟DOM是什么",
+              link: "/interview/frontend/vue/虚拟dom是什么",
+            },
+          ],
         },
       ],
     },
