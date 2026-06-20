@@ -1705,6 +1705,321 @@ export default {
     },
   ],
 
+  // 面试题-工程化
+  "/interview/frontend/engineering/": [
+    {
+      text: "工程化面试题",
+      items: [
+        {
+          text: "构建工具通用题",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 前端为什么需要构建工具？你用过哪些？",
+              link: "/interview/frontend/engineering/11-前端为什么需要构建工具",
+            },
+            {
+              text: "2. 什么是打包（Bundling）？Bundler 做了哪些事？",
+              link: "/interview/frontend/engineering/12-什么是打包-bundler-做了哪些事",
+            },
+            {
+              text: "3. Tree Shaking 的原理是什么？有什么前提？",
+              link: "/interview/frontend/engineering/13-tree-shaking-的原理是什么",
+            },
+            {
+              text: "4. Code Splitting / 代码分割怎么做？有几种策略？",
+              link: "/interview/frontend/engineering/14-code-splitting-代码分割怎么做",
+            },
+            {
+              text: "5. Source Map 有哪些类型？如何选择？",
+              link: "/interview/frontend/engineering/15-source-map-有哪些类型如何选择",
+            },
+          ],
+        },
+        {
+          text: "Webpack",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Webpack 的核心概念",
+              link: "/interview/frontend/engineering/21-webpack-的核心概念",
+            },
+            {
+              text: "2. 手写一个简单的 Loader",
+              link: "/interview/frontend/engineering/22-手写一个简单的-loader",
+            },
+            {
+              text: "3. 手写一个简单的 Plugin",
+              link: "/interview/frontend/engineering/23-手写一个简单的-plugin",
+            },
+            {
+              text: "4. Webpack 5 有什么新东西？为什么要升级？",
+              link: "/interview/frontend/engineering/24-webpack-5-有什么新东西",
+            },
+            {
+              text: "5. 你是怎么优化 Webpack 构建速度的？",
+              link: "/interview/frontend/engineering/25-怎么优化-webpack-构建速度",
+            },
+            {
+              text: "6. 你是怎么分析 Bundle 体积的？有哪些工具？",
+              link: "/interview/frontend/engineering/26-怎么分析-bundle-体积",
+            },
+          ],
+        },
+        {
+          text: "Rollup",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Rollup 和 Webpack 有什么区别？各自适合什么场景？",
+              link: "/interview/frontend/engineering/31-rollup-和-webpack-有什么区别",
+            },
+            {
+              text: "2. Rollup 的 external / globals 是干什么的？",
+              link: "/interview/frontend/engineering/32-rollup-的-external-globals-是干什么的",
+            },
+          ],
+        },
+        {
+          text: "Vite",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Vite 的原理是什么？为什么快？",
+              link: "/interview/frontend/engineering/41-vite-的原理是什么-为什么快",
+            },
+            {
+              text: "2. 你在 Vite 配置里一般会写什么？",
+              link: "/interview/frontend/engineering/42-vite-配置里一般会写什么",
+            },
+            {
+              text: "3. Vite 里 optimizeDeps 是干什么的？",
+              link: "/interview/frontend/engineering/43-vite-里-optimizedeps-是干什么的",
+            },
+          ],
+        },
+        {
+          text: "esbuild / SWC / Rspack",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 你知道 esbuild 吗？它为什么这么快？",
+              link: "/interview/frontend/engineering/51-esbuild-为什么这么快",
+            },
+            {
+              text: "2. SWC 和 Babel 有什么区别？什么时候会选 SWC？",
+              link: "/interview/frontend/engineering/52-swc-和-babel-有什么区别",
+            },
+            {
+              text: "3. Rspack 了解吗？和 Webpack 是什么关系？",
+              link: "/interview/frontend/engineering/53-rspack-和-webpack-是什么关系",
+            },
+          ],
+        },
+        {
+          text: "性能优化",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 首屏性能怎么优化？从哪些维度思考？",
+              link: "/interview/frontend/engineering/61-首屏性能怎么优化",
+            },
+            {
+              text: "2. 你怎么决定哪些库应该 vendor chunk，哪些应该按需加载？",
+              link: "/interview/frontend/engineering/62-怎么决定哪些库应该-vendor-chunk",
+            },
+          ],
+        },
+        {
+          text: "包管理与依赖",
+          collapsed: false,
+          items: [
+            {
+              text: "1. npm / yarn / pnpm 的区别？pnpm 为什么更快？",
+              link: "/interview/frontend/engineering/71-npm-yarn-pnpm-的区别",
+            },
+            {
+              text: "2. dependencies / devDependencies / peerDependencies / optionalDependencies 有什么区别？",
+              link: "/interview/frontend/engineering/72-package-json-里各种-dependencies-的区别",
+            },
+            {
+              text: "3. 什么是 SemVer（语义化版本）？",
+              link: "/interview/frontend/engineering/73-什么是-semver-语义化版本",
+            },
+          ],
+        },
+        {
+          text: "Monorepo",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 你了解 Monorepo 吗？什么时候用？用过哪些工具？",
+              link: "/interview/frontend/engineering/81-你了解-monorepo-吗",
+            },
+          ],
+        },
+        {
+          text: "代码质量工具链",
+          collapsed: false,
+          items: [
+            {
+              text: "1. ESLint / Prettier / Stylelint / Husky 等工具怎么协作？",
+              link: "/interview/frontend/engineering/91-eslint-prettier-等工具怎么协作",
+            },
+            {
+              text: "2. ESLint 怎么写自定义规则？",
+              link: "/interview/frontend/engineering/92-eslint-怎么写自定义规则",
+            },
+          ],
+        },
+        {
+          text: "CI/CD 与部署",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 你们前端项目的 CI 流程大概是怎样的？",
+              link: "/interview/frontend/engineering/101-前端项目的-ci-流程",
+            },
+            {
+              text: "2. 你是怎么部署前端项目的？Nginx 里有哪些关键配置？",
+              link: "/interview/frontend/engineering/102-怎么部署前端项目-nginx-配置",
+            },
+            {
+              text: "3. 什么是 BFF？前端为什么需要它？",
+              link: "/interview/frontend/engineering/103-什么是-bff-前端为什么需要它",
+            },
+          ],
+        },
+        {
+          text: "环境与规范",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 你怎么管理多个 Node 版本？团队怎么统一 Node 版本？",
+              link: "/interview/frontend/engineering/111-怎么管理多个-node-版本",
+            },
+            {
+              text: '2. 你怎么设计"新项目脚手架"？',
+              link: "/interview/frontend/engineering/112-怎么设计新项目脚手架",
+            },
+          ],
+        },
+        {
+          text: "TypeScript 工程化",
+          collapsed: false,
+          items: [
+            {
+              text: "1. tsconfig.json 里哪些字段最重要？",
+              link: "/interview/frontend/engineering/121-tsconfig-json-里哪些字段最重要",
+            },
+            {
+              text: "2. 你怎么发布一个 TypeScript 库到 npm？",
+              link: "/interview/frontend/engineering/122-怎么发布一个-typescript-库到-npm",
+            },
+          ],
+        },
+        {
+          text: "监控与错误上报",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 你是怎么做前端错误监控和性能监控的？",
+              link: "/interview/frontend/engineering/131-怎么做前端错误监控和性能监控",
+            },
+          ],
+        },
+        {
+          text: "安全",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 前端能做哪些安全措施？",
+              link: "/interview/frontend/engineering/141-前端能做哪些安全措施",
+            },
+          ],
+        },
+        {
+          text: "微前端",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 微前端是什么？用过哪些方案？",
+              link: "/interview/frontend/engineering/151-微前端是什么-用过哪些方案",
+            },
+          ],
+        },
+        {
+          text: "Server-Side 相关",
+          collapsed: false,
+          items: [
+            {
+              text: "1. SSR / SSG / ISR / CSR 的区别？",
+              link: "/interview/frontend/engineering/161-ssr-ssg-isr-csr-的区别",
+            },
+          ],
+        },
+        {
+          text: "实战场景题",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 接手老项目，Webpack 构建要 5 分钟，首屏加载 10MB，你从哪里下手优化？",
+              link: "/interview/frontend/engineering/171-接手老项目如何优化",
+            },
+            {
+              text: "2. 团队决定从 Webpack 迁移到 Vite，你会做哪些验证与风险评估？",
+              link: "/interview/frontend/engineering/172-从-webpack-迁移到-vite-的验证与风险评估",
+            },
+          ],
+        },
+        {
+          text: "深挖题（高级面试）",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Webpack 的 Module、Chunk、Bundle、Asset 四者是什么关系？",
+              link: "/interview/frontend/engineering/181-webpack-的-module-chunk-bundle-asset-关系",
+            },
+            {
+              text: "2. 为什么 Webpack 5 不再自动 polyfill Node 模块？",
+              link: "/interview/frontend/engineering/182-webpack-5-不再自动-polyfill-node-模块",
+            },
+            {
+              text: "3. Rollup 的 Treeshaking 和 Webpack 的 Treeshaking 实现上有什么差异？",
+              link: "/interview/frontend/engineering/183-rollup-和-webpack-的-treeshaking-差异",
+            },
+            {
+              text: "4. 如果没有构建工具，你能手写一个简单的模块加载器吗？",
+              link: "/interview/frontend/engineering/184-手写一个简单的模块加载器",
+            },
+            {
+              text: '5. 怎么设计一个"组件库的按需加载"方案？',
+              link: "/interview/frontend/engineering/185-怎么设计组件库的按需加载方案",
+            },
+            {
+              text: "6. HTTP/2 有什么变化？对前端构建策略有什么影响？",
+              link: "/interview/frontend/engineering/186-http2-对前端构建策略的影响",
+            },
+            {
+              text: "7. 什么是 Module Federation？适用场景？",
+              link: "/interview/frontend/engineering/187-什么是-module-federation",
+            },
+          ],
+        },
+        {
+          text: "学习与选型建议",
+          collapsed: false,
+          items: [
+            {
+              text: "1. 面对这么多前端工具，你是怎么学习和选型的？",
+              link: "/interview/frontend/engineering/191-怎么学习和选型前端工具",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+
   // 前端学习-首页
   "/learn/frontend/": [
     {
