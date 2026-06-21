@@ -2315,4 +2315,108 @@ export default {
       ],
     },
   ],
+
+  // Node.js 模块-首页
+  "/web/nodejs/": [
+    {
+      text: "Node.js",
+      items: [{ text: "总览与学习路线", link: "/web/nodejs/" }],
+    },
+    {
+      text: "Node.js 基础",
+      collapsed: false,
+      items: [
+        { text: "01 入门与安装", link: "/web/nodejs/basics/01-intro/" },
+        { text: "02 模块系统", link: "/web/nodejs/basics/02-modules/" },
+        { text: "03 npm 包管理", link: "/web/nodejs/basics/03-npm/" },
+        { text: "04 核心模块", link: "/web/nodejs/basics/04-core-modules/" },
+        { text: "05 事件循环", link: "/web/nodejs/basics/05-event-loop/" },
+        { text: "06 Stream 流", link: "/web/nodejs/basics/06-stream/" },
+        { text: "07 Buffer", link: "/web/nodejs/basics/07-buffer/" },
+        { text: "08 进程与子进程", link: "/web/nodejs/basics/08-process/" },
+      ],
+    },
+    {
+      text: "Express",
+      collapsed: true,
+      items: [
+        { text: "Express 入门", link: "/web/nodejs/express/" },
+        { text: "01 入门与路由", link: "/web/nodejs/express/01-intro/" },
+        { text: "02 中间件机制", link: "/web/nodejs/express/02-middleware/" },
+        {
+          text: "03 请求与响应",
+          link: "/web/nodejs/express/03-request-response/",
+        },
+        {
+          text: "04 错误处理",
+          link: "/web/nodejs/express/04-error-handling/",
+        },
+        {
+          text: "05 最佳实践",
+          link: "/web/nodejs/express/05-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "Koa",
+      collapsed: true,
+      items: [
+        { text: "Koa 入门", link: "/web/nodejs/koa/" },
+        { text: "01 入门与 Context", link: "/web/nodejs/koa/01-intro/" },
+        {
+          text: "02 中间件（洋葱模型）",
+          link: "/web/nodejs/koa/02-middleware/",
+        },
+        { text: "03 路由与常用中间件", link: "/web/nodejs/koa/03-routing/" },
+        { text: "04 最佳实践", link: "/web/nodejs/koa/04-best-practices/" },
+      ],
+    },
+    {
+      text: "NestJS",
+      collapsed: true,
+      items: [
+        { text: "NestJS 入门", link: "/web/nodejs/nestjs/" },
+        { text: "01 入门与 CLI", link: "/web/nodejs/nestjs/01-intro/" },
+        { text: "02 模块与依赖注入", link: "/web/nodejs/nestjs/02-modules/" },
+        {
+          text: "03 Controller / Provider",
+          link: "/web/nodejs/nestjs/03-providers/",
+        },
+        {
+          text: "04 中间件 / 守卫 / 拦截器",
+          link: "/web/nodejs/nestjs/04-middleware/",
+        },
+        {
+          text: "05 最佳实践",
+          link: "/web/nodejs/nestjs/05-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "数据库",
+      collapsed: true,
+      items: [
+        { text: "数据库总览", link: "/web/nodejs/database/" },
+        { text: "01 MySQL", link: "/web/nodejs/database/01-mysql/" },
+        { text: "02 MongoDB", link: "/web/nodejs/database/02-mongodb/" },
+        { text: "03 Redis", link: "/web/nodejs/database/03-redis/" },
+        { text: "04 ORM", link: "/web/nodejs/database/04-orm/" },
+      ],
+    },
+    {
+      text: "工程化与部署",
+      collapsed: true,
+      items: [
+        { text: "工程化总览", link: "/web/nodejs/engineering/" },
+        { text: "01 PM2 进程管理", link: "/web/nodejs/engineering/01-pm2/" },
+        { text: "02 Docker 部署", link: "/web/nodejs/engineering/02-docker/" },
+        { text: "03 测试", link: "/web/nodejs/engineering/03-testing/" },
+        { text: "04 安全", link: "/web/nodejs/engineering/04-security/" },
+        {
+          text: "05 性能优化",
+          link: "/web/nodejs/engineering/05-performance/",
+        },
+      ],
+    },
+  ],
 };
