@@ -2225,4 +2225,94 @@ export default {
       items: [{ text: "HTML", link: "/learn/frontend/" }],
     },
   ],
+
+  // 样式模块-首页
+  "/web/styles/": [
+    {
+      text: "样式模块",
+      items: [{ text: "总览与学习路线", link: "/web/styles/" }],
+    },
+    {
+      text: "CSS 基础",
+      collapsed: false,
+      items: [
+        { text: "CSS 入门", link: "/web/styles/css/" },
+        { text: "01 基础语法", link: "/web/styles/css/01-basics/" },
+        { text: "02 选择器", link: "/web/styles/css/02-selectors/" },
+        { text: "03 盒模型", link: "/web/styles/css/03-box-model/" },
+        { text: "04 布局", link: "/web/styles/css/04-layout/" },
+        { text: "05 响应式", link: "/web/styles/css/05-responsive/" },
+        { text: "06 动画", link: "/web/styles/css/06-animation/" },
+        { text: "07 预处理器", link: "/web/styles/css/07-preprocessor/" },
+        { text: "08 最佳实践", link: "/web/styles/css/08-best-practices/" },
+      ],
+    },
+    {
+      text: "Sass / SCSS",
+      collapsed: true,
+      items: [
+        { text: "Sass 入门", link: "/web/styles/sass/" },
+        { text: "01 入门与安装", link: "/web/styles/sass/01-intro/" },
+        { text: "02 变量与数据类型", link: "/web/styles/sass/02-variables/" },
+        { text: "03 嵌套与作用域", link: "/web/styles/sass/03-nesting/" },
+        { text: "04 Mixin 与 Include", link: "/web/styles/sass/04-mixin/" },
+        { text: "05 继承与占位符", link: "/web/styles/sass/05-extend/" },
+        { text: "06 函数与运算", link: "/web/styles/sass/06-functions/" },
+        { text: "07 控制指令", link: "/web/styles/sass/07-control/" },
+        { text: "08 模块化与 @use", link: "/web/styles/sass/08-modules/" },
+        { text: "09 最佳实践", link: "/web/styles/sass/09-best-practices/" },
+      ],
+    },
+    {
+      text: "Less",
+      collapsed: true,
+      items: [
+        { text: "Less 入门", link: "/web/styles/less/" },
+        { text: "01 入门与安装", link: "/web/styles/less/01-intro/" },
+        { text: "02 变量", link: "/web/styles/less/02-variables/" },
+        { text: "03 嵌套", link: "/web/styles/less/03-nesting/" },
+        { text: "04 Mixin", link: "/web/styles/less/04-mixin/" },
+        { text: "05 函数与运算", link: "/web/styles/less/05-functions/" },
+        { text: "06 守卫与循环", link: "/web/styles/less/06-guard-loop/" },
+        { text: "07 最佳实践", link: "/web/styles/less/07-best-practices/" },
+      ],
+    },
+    {
+      text: "Tailwind CSS",
+      collapsed: true,
+      items: [
+        { text: "Tailwind 入门", link: "/web/styles/tailwind/" },
+        { text: "01 入门与配置", link: "/web/styles/tailwind/01-intro/" },
+        { text: "02 工具类速查", link: "/web/styles/tailwind/02-utilities/" },
+        {
+          text: "03 响应式与状态",
+          link: "/web/styles/tailwind/03-responsive/",
+        },
+        { text: "04 自定义主题", link: "/web/styles/tailwind/04-theme/" },
+        {
+          text: "05 @apply 与组件抽取",
+          link: "/web/styles/tailwind/05-apply/",
+        },
+        { text: "06 插件与生态", link: "/web/styles/tailwind/06-plugins/" },
+        {
+          text: "07 最佳实践",
+          link: "/web/styles/tailwind/07-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "现代方案",
+      collapsed: true,
+      items: [
+        { text: "现代方案总览", link: "/web/styles/modern/" },
+        { text: "01 CSS Modules", link: "/web/styles/modern/01-css-modules/" },
+        { text: "02 CSS-in-JS", link: "/web/styles/modern/02-css-in-js/" },
+        { text: "03 CSS 新特性", link: "/web/styles/modern/03-new-features/" },
+        {
+          text: "04 方案对比与选型",
+          link: "/web/styles/modern/04-comparison/",
+        },
+      ],
+    },
+  ],
 };
