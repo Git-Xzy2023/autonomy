@@ -2419,4 +2419,445 @@ export default {
       ],
     },
   ],
+
+  // 小程序
+  "/web/miniprogram/": [
+    {
+      text: "小程序",
+      items: [
+        { text: "总览与学习路径", link: "/web/miniprogram/" },
+        {
+          text: "01 创建小程序",
+          link: "/web/miniprogram/01-create/",
+        },
+        {
+          text: "02 项目结构与配置",
+          link: "/web/miniprogram/02-structure/",
+        },
+        {
+          text: "03 开发详解",
+          link: "/web/miniprogram/03-development/",
+        },
+        {
+          text: "04 部署与发布",
+          link: "/web/miniprogram/04-deploy/",
+        },
+        {
+          text: "05 跨端开发",
+          link: "/web/miniprogram/05-cross-platform/",
+        },
+      ],
+    },
+  ],
+
+  // React 核心模块
+  "/web/react/": [
+    {
+      text: "React",
+      items: [{ text: "总览与学习路线", link: "/web/react/" }],
+    },
+    {
+      text: "React 基础",
+      collapsed: false,
+      items: [
+        { text: "React 基础入门", link: "/web/react/basics/" },
+        { text: "01 React 简介", link: "/web/react/basics/01-intro/" },
+        { text: "02 JSX 语法", link: "/web/react/basics/02-jsx/" },
+        { text: "03 组件与 Props", link: "/web/react/basics/03-components/" },
+        {
+          text: "04 State 与事件",
+          link: "/web/react/basics/04-state-events/",
+        },
+        { text: "05 生命周期", link: "/web/react/basics/05-lifecycle/" },
+      ],
+    },
+    {
+      text: "React Hooks",
+      collapsed: true,
+      items: [
+        { text: "Hooks 入门", link: "/web/react/hooks/" },
+        { text: "01 useState", link: "/web/react/hooks/01-usestate/" },
+        { text: "02 useEffect", link: "/web/react/hooks/02-useeffect/" },
+        { text: "03 useRef", link: "/web/react/hooks/03-useref/" },
+        { text: "04 useContext", link: "/web/react/hooks/04-usecontext/" },
+        {
+          text: "05 useMemo / useCallback",
+          link: "/web/react/hooks/05-usememo-usecallback/",
+        },
+        { text: "06 useReducer", link: "/web/react/hooks/06-usereducer/" },
+        {
+          text: "07 自定义 Hooks",
+          link: "/web/react/hooks/07-custom-hooks/",
+        },
+      ],
+    },
+    {
+      text: "React 进阶",
+      collapsed: true,
+      items: [
+        { text: "React 进阶", link: "/web/react/advanced/" },
+        { text: "01 Context", link: "/web/react/advanced/01-context/" },
+        { text: "02 Refs", link: "/web/react/advanced/02-refs/" },
+        { text: "03 高阶组件", link: "/web/react/advanced/03-hoc/" },
+        {
+          text: "04 Render Props",
+          link: "/web/react/advanced/04-render-props/",
+        },
+        {
+          text: "05 错误边界",
+          link: "/web/react/advanced/05-error-boundaries/",
+        },
+        { text: "06 Portals", link: "/web/react/advanced/06-portals/" },
+        { text: "07 Suspense", link: "/web/react/advanced/07-suspense/" },
+      ],
+    },
+    {
+      text: "性能优化",
+      collapsed: true,
+      items: [
+        { text: "性能优化", link: "/web/react/performance/" },
+        { text: "01 虚拟 DOM", link: "/web/react/performance/01-virtual-dom/" },
+        { text: "02 memo 与记忆化", link: "/web/react/performance/02-memo/" },
+        {
+          text: "03 并发模式",
+          link: "/web/react/performance/03-concurrent/",
+        },
+        {
+          text: "04 性能优化实践",
+          link: "/web/react/performance/04-optimization/",
+        },
+      ],
+    },
+    {
+      text: "设计模式",
+      collapsed: true,
+      items: [
+        { text: "设计模式", link: "/web/react/patterns/" },
+        {
+          text: "01 复合组件模式",
+          link: "/web/react/patterns/01-compound/",
+        },
+        {
+          text: "02 自定义 Hooks 模式",
+          link: "/web/react/patterns/02-custom-hooks/",
+        },
+        { text: "03 Provider 模式", link: "/web/react/patterns/03-provider/" },
+      ],
+    },
+    {
+      text: "测试",
+      collapsed: true,
+      items: [
+        { text: "测试", link: "/web/react/testing/" },
+        { text: "01 Jest", link: "/web/react/testing/01-jest/" },
+        {
+          text: "02 Testing Library",
+          link: "/web/react/testing/02-testing-library/",
+        },
+      ],
+    },
+    {
+      text: "最佳实践",
+      collapsed: true,
+      items: [
+        { text: "最佳实践", link: "/web/react/best-practices/" },
+        {
+          text: "01 项目结构",
+          link: "/web/react/best-practices/01-project-structure/",
+        },
+        {
+          text: "02 代码风格",
+          link: "/web/react/best-practices/02-code-style/",
+        },
+        {
+          text: "03 TypeScript",
+          link: "/web/react/best-practices/03-typescript/",
+        },
+      ],
+    },
+    {
+      text: "🆕 React 19 新特性",
+      collapsed: false,
+      items: [
+        {
+          text: "React 19 总览",
+          link: "/web/react/react19/",
+        },
+        {
+          text: "01 新 Hooks（use/useActionState/useOptimistic/useFormStatus）",
+          link: "/web/react/react19/01-new-hooks/",
+        },
+        {
+          text: "02 Actions 与表单",
+          link: "/web/react/react19/02-actions/",
+        },
+        {
+          text: "03 Server Components 与 Server Actions",
+          link: "/web/react/react19/03-server-components/",
+        },
+        {
+          text: "04 React Compiler",
+          link: "/web/react/react19/04-react-compiler/",
+        },
+        {
+          text: "05 API 变化",
+          link: "/web/react/react19/05-api-changes/",
+        },
+        {
+          text: "06 从 React 18 迁移",
+          link: "/web/react/react19/06-migration/",
+        },
+      ],
+    },
+  ],
+
+  // React 生态
+  "/web/react-ecosystem/": [
+    {
+      text: "React 生态",
+      items: [{ text: "生态总览", link: "/web/react-ecosystem/" }],
+    },
+    {
+      text: "React Router",
+      collapsed: false,
+      items: [
+        { text: "React Router", link: "/web/react-ecosystem/react-router/" },
+        {
+          text: "01 基础",
+          link: "/web/react-ecosystem/react-router/01-basics/",
+        },
+        {
+          text: "02 嵌套路由",
+          link: "/web/react-ecosystem/react-router/02-nested/",
+        },
+        {
+          text: "03 导航",
+          link: "/web/react-ecosystem/react-router/03-navigation/",
+        },
+        {
+          text: "04 路由守卫",
+          link: "/web/react-ecosystem/react-router/04-guards/",
+        },
+      ],
+    },
+    {
+      text: "Redux",
+      collapsed: true,
+      items: [
+        { text: "Redux", link: "/web/react-ecosystem/redux/" },
+        { text: "01 基础", link: "/web/react-ecosystem/redux/01-basics/" },
+        {
+          text: "02 Redux Toolkit",
+          link: "/web/react-ecosystem/redux/02-toolkit/",
+        },
+        {
+          text: "03 异步操作",
+          link: "/web/react-ecosystem/redux/03-async/",
+        },
+        {
+          text: "04 最佳实践",
+          link: "/web/react-ecosystem/redux/04-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "Zustand",
+      collapsed: true,
+      items: [
+        { text: "Zustand", link: "/web/react-ecosystem/zustand/" },
+        { text: "01 基础", link: "/web/react-ecosystem/zustand/01-basics/" },
+        {
+          text: "02 进阶",
+          link: "/web/react-ecosystem/zustand/02-advanced/",
+        },
+      ],
+    },
+    {
+      text: "React Query",
+      collapsed: true,
+      items: [
+        { text: "React Query", link: "/web/react-ecosystem/react-query/" },
+        {
+          text: "01 基础",
+          link: "/web/react-ecosystem/react-query/01-basics/",
+        },
+        {
+          text: "02 查询",
+          link: "/web/react-ecosystem/react-query/02-queries/",
+        },
+        {
+          text: "03 变更",
+          link: "/web/react-ecosystem/react-query/03-mutations/",
+        },
+        {
+          text: "04 最佳实践",
+          link: "/web/react-ecosystem/react-query/04-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "Next.js",
+      collapsed: true,
+      items: [
+        { text: "Next.js", link: "/web/react-ecosystem/nextjs/" },
+        { text: "01 基础", link: "/web/react-ecosystem/nextjs/01-basics/" },
+        { text: "02 路由", link: "/web/react-ecosystem/nextjs/02-routing/" },
+        {
+          text: "03 数据获取",
+          link: "/web/react-ecosystem/nextjs/03-data-fetching/",
+        },
+        {
+          text: "04 部署",
+          link: "/web/react-ecosystem/nextjs/04-deployment/",
+        },
+      ],
+    },
+  ],
+
+  // 前端架构-首页
+  "/web/architecture/": [
+    {
+      text: "前端架构",
+      items: [{ text: "总览与学习路线", link: "/web/architecture/" }],
+    },
+    {
+      text: "设计模式",
+      collapsed: false,
+      items: [
+        { text: "设计模式总览", link: "/web/architecture/design-patterns/" },
+        {
+          text: "01 创建型模式",
+          link: "/web/architecture/design-patterns/01-creational/",
+        },
+        {
+          text: "02 结构型模式",
+          link: "/web/architecture/design-patterns/02-structural/",
+        },
+        {
+          text: "03 行为型模式",
+          link: "/web/architecture/design-patterns/03-behavioral/",
+        },
+        {
+          text: "04 前端应用",
+          link: "/web/architecture/design-patterns/04-frontend-application/",
+        },
+      ],
+    },
+    {
+      text: "架构模式",
+      collapsed: true,
+      items: [
+        {
+          text: "架构模式总览",
+          link: "/web/architecture/architecture-patterns/",
+        },
+        {
+          text: "01 MVC/MVP/MVVM",
+          link: "/web/architecture/architecture-patterns/01-mvc-mvp-mvvm/",
+        },
+        {
+          text: "02 组件化架构",
+          link: "/web/architecture/architecture-patterns/02-component-based/",
+        },
+        {
+          text: "03 微前端",
+          link: "/web/architecture/architecture-patterns/03-micro-frontends/",
+        },
+        {
+          text: "04 Monorepo",
+          link: "/web/architecture/architecture-patterns/04-monorepo/",
+        },
+        {
+          text: "05 Islands 架构",
+          link: "/web/architecture/architecture-patterns/05-islands/",
+        },
+      ],
+    },
+    {
+      text: "代码规范",
+      collapsed: true,
+      items: [
+        { text: "代码规范总览", link: "/web/architecture/code-standards/" },
+        {
+          text: "01 ESLint",
+          link: "/web/architecture/code-standards/01-eslint/",
+        },
+        {
+          text: "02 Prettier",
+          link: "/web/architecture/code-standards/02-prettier/",
+        },
+        {
+          text: "03 Git Commit 规范",
+          link: "/web/architecture/code-standards/03-git-commit/",
+        },
+        {
+          text: "04 TypeScript 规范",
+          link: "/web/architecture/code-standards/04-typescript/",
+        },
+        {
+          text: "05 代码审查",
+          link: "/web/architecture/code-standards/05-code-review/",
+        },
+      ],
+    },
+    {
+      text: "测试",
+      collapsed: true,
+      items: [
+        { text: "测试总览", link: "/web/architecture/testing/" },
+        {
+          text: "01 单元测试",
+          link: "/web/architecture/testing/01-unit-testing/",
+        },
+        {
+          text: "02 集成测试",
+          link: "/web/architecture/testing/02-integration-testing/",
+        },
+        {
+          text: "03 E2E 测试",
+          link: "/web/architecture/testing/03-e2e-testing/",
+        },
+        {
+          text: "04 Mock 与 Stub",
+          link: "/web/architecture/testing/04-mock-stub/",
+        },
+        {
+          text: "05 测试覆盖率",
+          link: "/web/architecture/testing/05-coverage/",
+        },
+      ],
+    },
+  ],
+
+  // 前端工程化
+  "/web/engineering/": [
+    {
+      text: "前端工程化",
+      items: [{ text: "总览与学习路线", link: "/web/engineering/" }],
+    },
+    {
+      text: "构建工具",
+      collapsed: false,
+      items: [
+        { text: "01 Webpack", link: "/web/engineering/01-webpack/" },
+        { text: "02 Vite", link: "/web/engineering/02-vite/" },
+        { text: "03 Rollup", link: "/web/engineering/03-rollup/" },
+      ],
+    },
+    {
+      text: "工程化实践",
+      collapsed: true,
+      items: [
+        {
+          text: "04 包管理器",
+          link: "/web/engineering/04-package-manager/",
+        },
+        { text: "05 CI/CD", link: "/web/engineering/05-ci-cd/" },
+        {
+          text: "06 代码规范与工具链",
+          link: "/web/engineering/06-code-quality/",
+        },
+      ],
+    },
+  ],
 };

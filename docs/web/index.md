@@ -34,8 +34,8 @@ features:
     linkText: 查看全部
   - title: React 生态
     icon: ⚛️
-    details: 包含 React、React Router、Redux、Zustand、React Query 等
-    link: /web/react-ecosystem/
+    details: 包含 React 核心、React Router、Redux、Zustand、React Query、Next.js 等
+    link: /web/react/
     linkText: 查看全部
   - title: 工程化相关
     icon: 🏗️
