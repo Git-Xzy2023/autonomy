@@ -90,6 +90,7 @@
 | `/web/nginx/` | ✅ 已配置 | ✅ 普通文档（基础/反向代理/优化） |
 | `/web/JavaScript/` | ✅ 已配置 | ✅ 普通文档（JS/TS/ES6+） |
 | `/web/desktop/` | ✅ 已配置 | ✅ 普通文档（Electron/Tauri/NW.js/Flutter/Wails/Qt/React Native） |
+| `/java/` | ✅ 已配置 | ✅ 普通文档（Java 基础/Spring/Spring Boot/MyBatis/数据库/微服务） |
 | `/web/styles/` | ⚠️ 待检查 | ⚠️ 待检查 |
 | `/web/nodejs/` | ✅ 已配置 | ⚠️ 待检查 |
 | `/web/miniprogram/` | ✅ 已配置 | ⚠️ 待检查 |

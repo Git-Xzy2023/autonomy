@@ -2757,6 +2757,78 @@ export default {
     },
   ],
 
+  // Java 后端
+  "/java/": [
+    {
+      text: "Java 后端",
+      items: [{ text: "总览与学习路线", link: "/java/" }],
+    },
+    {
+      text: "Java 基础",
+      collapsed: false,
+      items: [
+        { text: "01 语法基础", link: "/java/basic/01-syntax/" },
+        { text: "02 面向对象", link: "/java/basic/02-oop/" },
+        { text: "03 集合框架", link: "/java/basic/03-collections/" },
+        { text: "04 多线程与并发", link: "/java/basic/04-concurrent/" },
+        { text: "05 JVM", link: "/java/basic/05-jvm/" },
+        { text: "06 新特性", link: "/java/basic/06-new-features/" },
+      ],
+    },
+    {
+      text: "Spring 框架",
+      collapsed: true,
+      items: [
+        { text: "01 IoC 容器", link: "/java/spring/01-ioc/" },
+        { text: "02 AOP", link: "/java/spring/02-aop/" },
+        { text: "03 Spring MVC", link: "/java/spring/03-mvc/" },
+        { text: "04 事务", link: "/java/spring/04-transaction/" },
+      ],
+    },
+    {
+      text: "Spring Boot",
+      collapsed: true,
+      items: [
+        { text: "01 快速入门", link: "/java/springboot/01-intro/" },
+        { text: "02 自动配置", link: "/java/springboot/02-autoconfig/" },
+        { text: "03 数据访问", link: "/java/springboot/03-data/" },
+        { text: "04 Web 开发", link: "/java/springboot/04-web/" },
+        { text: "05 监控", link: "/java/springboot/05-actuator/" },
+      ],
+    },
+    {
+      text: "MyBatis",
+      collapsed: true,
+      items: [
+        { text: "01 快速入门", link: "/java/mybatis/01-intro/" },
+        { text: "02 映射文件", link: "/java/mybatis/02-mapper/" },
+        { text: "03 动态 SQL", link: "/java/mybatis/03-dynamic-sql/" },
+        { text: "04 缓存", link: "/java/mybatis/04-cache/" },
+      ],
+    },
+    {
+      text: "数据库访问",
+      collapsed: true,
+      items: [
+        { text: "01 JDBC", link: "/java/database/01-jdbc/" },
+        { text: "02 连接池", link: "/java/database/02-pool/" },
+      ],
+    },
+    {
+      text: "微服务",
+      collapsed: true,
+      items: [
+        { text: "01 架构设计", link: "/java/microservice/01-architecture/" },
+        {
+          text: "02 Spring Cloud",
+          link: "/java/microservice/02-spring-cloud/",
+        },
+        { text: "03 服务网关", link: "/java/microservice/03-gateway/" },
+        { text: "04 熔断限流", link: "/java/microservice/04-circuit-breaker/" },
+      ],
+    },
+  ],
+
   // Vue 生态
   "/web/vue-ecosystem/": [
     {
