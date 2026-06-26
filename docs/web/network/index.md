@@ -1,28 +1,120 @@
 ---
-layout: home
-hero:
-  name: 网络相关
-  text: 网络技术
-  tagline: HTTP、HTTPS、网络协议
-features:
-  - title: HTTP
-    icon: 🌐
-    details: HTTP 协议、请求方法、状态码、缓存等
-    link: /web/
-    linkText: 待添加
-  - title: HTTPS
-    icon: 🔒
-    details: HTTPS 原理、SSL/TLS、证书
-    link: /web/
-    linkText: 待添加
-  - title: WebSocket
-    icon: 🔌
-    details: WebSocket 原理、实时通信
-    link: /web/
-    linkText: 待添加
-  - title: 网络安全
-    icon: 🛡️
-    details: XSS、CSRF、CORS、点击劫持等
-    link: /web/
-    linkText: 待添加
+title: 网络技术学习指南
 ---
+
+# 网络技术学习指南
+
+> 网络是前端与服务器通信的基础。本章系统整理 HTTP/HTTPS 协议、WebSocket 实时通信、Web 安全（XSS/CSRF/CORS）等核心知识，帮助你理解 Web 应用的网络层。
+
+---
+
+## 一、为什么深入学习网络？
+
+- 🚀 **性能优化**：理解 HTTP 缓存、连接复用，才能做对性能优化
+- 🔒 **安全防护**：不懂 CSRF/CORS 就防不住常见攻击
+- 📡 **实时应用**：WebSocket 是聊天、协同编辑、游戏的基础
+- 💼 **面试高频**：HTTP 状态码、缓存、跨域是前端面试必考
+- 🛠️ **调试能力**：DevTools Network 面板离不开协议知识
+
+---
+
+## 二、各模块入口
+
+### 🌐 01. HTTP 协议
+
+Web 通信的基础协议，涵盖请求响应模型、方法、状态码、首部、缓存机制与版本演进。
+
+| 章节 | 主题 | 链接                          |
+| ---- | ---- | ----------------------------- |
+| 01   | HTTP | [HTTP 协议](/web/network/01-http/) |
+
+### 🔒 02. HTTPS
+
+HTTPS = HTTP + TLS，解决明文传输、身份认证、完整性三大问题。
+
+| 章节 | 主题  | 链接                           |
+| ---- | ----- | ------------------------------ |
+| 02   | HTTPS | [HTTPS 原理](/web/network/02-https/) |
+
+### 🔌 03. WebSocket
+
+全双工长连接协议，专为实时场景设计，支持服务器主动推送。
+
+| 章节 | 主题      | 链接                                |
+| ---- | --------- | ----------------------------------- |
+| 03   | WebSocket | [WebSocket 实时通信](/web/network/03-websocket/) |
+
+### 🛡️ 04. 网络安全
+
+前端工程师必知必会的 Web 攻击与防御：XSS、CSRF、CORS、点击劫持、CSP。
+
+| 章节 | 主题     | 链接                                |
+| ---- | -------- | ----------------------------------- |
+| 04   | 网络安全 | [网络安全基础](/web/network/04-security/) |
+
+---
+
+## 三、技术栈总览
+
+```
+网络技术
+├── HTTP
+│   ├── 请求响应模型
+│   ├── 方法（GET/POST/PUT/DELETE）
+│   ├── 状态码（2xx/3xx/4xx/5xx）
+│   ├── 首部字段
+│   ├── 缓存（强缓存 / 协商缓存）
+│   ├── Cookie / Session / Token
+│   ├── HTTP/2（多路复用）
+│   └── HTTP/3（QUIC）
+│
+├── HTTPS
+│   ├── 对称加密 / 非对称加密
+│   ├── 数字证书与 CA
+│   ├── TLS 握手（1.2 / 1.3）
+│   ├── HSTS
+│   └── 性能优化
+│
+├── WebSocket
+│   ├── 协议握手
+│   ├── 数据帧
+│   ├── 浏览器 API
+│   ├── 自动重连 / 心跳
+│   └── Socket.IO
+│
+└── 网络安全
+    ├── XSS（跨站脚本）
+    ├── CSRF（跨站请求伪造）
+    ├── CORS（跨域资源共享）
+    ├── 点击劫持
+    ├── 中间人攻击
+    └── CSP / 安全响应头
+```
+
+---
+
+## 四、推荐学习路线
+
+```
+HTTP → HTTPS → WebSocket → 网络安全
+ ↓      ↓        ↓           ↓
+请求响应 加密握手  全双工通信   XSS 防御
+状态码   证书链    重连封装     CSRF 防御
+缓存机制 TLS 1.3  心跳机制     CORS 配置
+HTTP/2  HSTS    Socket.IO    CSP 策略
+```
+
+---
+
+## 五、学习建议
+
+1. **HTTP 是基石**：先掌握 [HTTP 协议](/web/network/01-http/)，状态码、缓存、方法必须熟
+2. **HTTPS 看原理**：[HTTPS](/web/network/02-https/) 重点在 TLS 握手与证书机制，不必死记算法
+3. **WebSocket 重实战**：[WebSocket](/web/network/03-websocket/) 配合手写聊天室，理解才深刻
+4. **安全靠清单**：[网络安全](/web/network/04-security/) 记住常见攻击与防御组合拳
+
+---
+
+## 开始学习
+
+选择你感兴趣的模块，开始深入学习网络技术！

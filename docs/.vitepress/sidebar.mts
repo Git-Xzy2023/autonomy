@@ -2829,6 +2829,64 @@ export default {
     },
   ],
 
+  // 网络相关
+  "/web/network/": [
+    {
+      text: "网络相关",
+      items: [{ text: "总览与学习路线", link: "/web/network/" }],
+    },
+    {
+      text: "HTTP 协议",
+      collapsed: false,
+      items: [{ text: "01 HTTP 协议", link: "/web/network/01-http/" }],
+    },
+    {
+      text: "HTTPS",
+      collapsed: true,
+      items: [{ text: "02 HTTPS 原理", link: "/web/network/02-https/" }],
+    },
+    {
+      text: "WebSocket",
+      collapsed: true,
+      items: [
+        { text: "03 WebSocket 实时通信", link: "/web/network/03-websocket/" },
+      ],
+    },
+    {
+      text: "网络安全",
+      collapsed: true,
+      items: [{ text: "04 网络安全基础", link: "/web/network/04-security/" }],
+    },
+  ],
+
+  // 浏览器相关
+  "/web/browser/": [
+    {
+      text: "浏览器相关",
+      items: [{ text: "总览与学习路线", link: "/web/browser/" }],
+    },
+    {
+      text: "浏览器原理",
+      collapsed: false,
+      items: [{ text: "01 浏览器原理", link: "/web/browser/01-principle/" }],
+    },
+    {
+      text: "Web API",
+      collapsed: true,
+      items: [{ text: "02 Web API", link: "/web/browser/02-web-api/" }],
+    },
+    {
+      text: "性能优化",
+      collapsed: true,
+      items: [{ text: "03 性能优化", link: "/web/browser/03-performance/" }],
+    },
+    {
+      text: "浏览器存储",
+      collapsed: true,
+      items: [{ text: "04 浏览器存储", link: "/web/browser/04-storage/" }],
+    },
+  ],
+
   // 前端工程化
   "/web/engineering/": [
     {
