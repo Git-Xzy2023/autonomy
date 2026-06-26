@@ -2611,6 +2611,57 @@ export default {
     },
   ],
 
+  // Git 版本控制
+  "/git/": [
+    {
+      text: "Git 版本控制",
+      items: [{ text: "Git 学习指南", link: "/git/" }],
+    },
+    {
+      text: "基础与进阶",
+      collapsed: false,
+      items: [
+        { text: "01 基础与核心命令", link: "/git/01-basics/" },
+        { text: "02 工作流与分支策略", link: "/git/02-workflow/" },
+        { text: "03 进阶与实战技巧", link: "/git/03-advanced/" },
+      ],
+    },
+  ],
+
+  // 数据库
+  "/database/": [
+    {
+      text: "数据库",
+      items: [{ text: "数据库学习指南", link: "/database/" }],
+    },
+    {
+      text: "数据库学习",
+      collapsed: false,
+      items: [
+        { text: "01 MySQL 基础与进阶", link: "/database/01-mysql/" },
+        { text: "02 Redis 缓存与数据结构", link: "/database/02-redis/" },
+        { text: "03 MongoDB 文档型数据库", link: "/database/03-mongodb/" },
+      ],
+    },
+  ],
+
+  // Nginx
+  "/nginx/": [
+    {
+      text: "Nginx",
+      items: [{ text: "Nginx 学习指南", link: "/nginx/" }],
+    },
+    {
+      text: "Nginx 学习",
+      collapsed: false,
+      items: [
+        { text: "01 基础与配置", link: "/nginx/01-basics/" },
+        { text: "02 反向代理与负载均衡", link: "/nginx/02-reverse-proxy/" },
+        { text: "03 性能优化与安全", link: "/nginx/03-optimization/" },
+      ],
+    },
+  ],
+
   // Vue 生态
   "/web/vue-ecosystem/": [
     {

@@ -85,6 +85,9 @@
 | `/web/browser/` | ✅ 已配置 | ✅ 普通文档 |
 | `/web/network/` | ✅ 已配置 | ✅ 普通文档 |
 | `/web/vue-ecosystem/` | ✅ 已配置 | ✅ 普通文档（Vue2/Vue3/源码/生态库） |
+| `/web/git/` | ✅ 已配置 | ✅ 普通文档（基础/工作流/进阶） |
+| `/web/database/` | ✅ 已配置 | ✅ 普通文档（MySQL/Redis/MongoDB） |
+| `/web/nginx/` | ✅ 已配置 | ✅ 普通文档（基础/反向代理/优化） |
 | `/web/styles/` | ⚠️ 待检查 | ⚠️ 待检查 |
 | `/web/nodejs/` | ✅ 已配置 | ⚠️ 待检查 |
 | `/web/miniprogram/` | ✅ 已配置 | ⚠️ 待检查 |

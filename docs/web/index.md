@@ -28,7 +28,7 @@ features:
     link: /web/network/
     linkText: 查看全部
   - title: Vue 生态
-    icon: �
+    icon: 💚
     details: 包含 Vue.js、Vue Router、Pinia、Vuex、VueUse 等
     link: /web/vue-ecosystem/
     linkText: 查看全部
@@ -48,19 +48,9 @@ features:
     link: /web/nodejs/
     linkText: 查看全部
   - title: 桌面端
-    icon: �
+    icon: 🖥️
     details: 包含 Electron、Tauri 等桌面端框架
     link: /web/desktop/
-    linkText: 查看全部
-  - title: Git
-    icon: 📚
-    details: 包含 Git 基础、Git 工作流、GitHub/GitLab 等
-    link: /web/git/
-    linkText: 查看全部
-  - title: H5
-    icon: �
-    details: 包含 H5 基础、移动端适配、触摸事件等
-    link: /web/h5/
     linkText: 查看全部
   - title: 小程序
     icon: 📲
