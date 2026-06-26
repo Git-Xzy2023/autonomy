@@ -22,7 +22,7 @@ hero:
 features:
   - title: 面试题
     icon: 📝
-    details: 前端、Java、Python、Go 等面试题集合
+    details: 前端、Java、Python 等面试题集合
     link: /interview/
     linkText: 开始刷题
   - title: 前端

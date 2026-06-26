@@ -25,7 +25,7 @@ Autonomy 是一个基于 VitePress 搭建的技术文档与博客站点，整理
 
 ## 核心特性
 
-- **多模块覆盖**：前端、Java、Python、Go、数据库、Nginx、Git、面试题、英语等九大方向。
+- **多模块覆盖**：前端、Java、Python、数据库、Nginx、Git、面试题等七大方向。
 - **结构化文档**：每个模块均配置层级化侧边栏菜单，章节首页含学习路线与对比表。
 - **本地全文搜索**：内置 VitePress 本地搜索，无需外部服务。
 - **暗黑 / 浅色模式**：支持主题切换，跟随系统或手动切换。
@@ -37,48 +37,46 @@ Autonomy 是一个基于 VitePress 搭建的技术文档与博客站点，整理
 
 ## 技术栈
 
-| 分类 | 技术 |
-| ---- | ---- |
-| 文档框架 | VitePress 1.6 |
-| 前端框架 | Vue 3.5 |
-| 构建工具 | Vite |
-| 包管理 | pnpm 10 |
-| 运行环境 | Node.js 20+ |
-| 部署 | GitHub Pages + GitHub Actions |
-| 访问统计 | busuanzi.pure.js |
-| 动画 | canvas-confetti |
-| 主题增强 | 自定义 Layout / 组件 |
+| 分类     | 技术                          |
+| -------- | ----------------------------- |
+| 文档框架 | VitePress 1.6                 |
+| 前端框架 | Vue 3.5                       |
+| 构建工具 | Vite                          |
+| 包管理   | pnpm 10                       |
+| 运行环境 | Node.js 20+                   |
+| 部署     | GitHub Pages + GitHub Actions |
+| 访问统计 | busuanzi.pure.js              |
+| 动画     | canvas-confetti               |
+| 主题增强 | 自定义 Layout / 组件          |
 
 ## 内容模块
 
-| 模块 | 路径 | 主要内容 |
-| ---- | ---- | ---- |
-| 🖥️ **前端** | [`docs/web/`](./docs/web/) | JavaScript / TypeScript / ES6+ / React / React 生态 / Vue 生态 / 样式 / 浏览器 / 网络 / 架构 / 工程化 / 桌面端 / Node.js / 小程序 |
-| ☕ **Java** | [`docs/java/`](./docs/java/) | Java 基础、Spring、Spring Boot、MyBatis |
-| 🐍 **Python** | [`docs/python/`](./docs/python/) | Python 基础、数据科学、机器学习、自动化脚本 |
-| 🦫 **Go** | [`docs/go/`](./docs/go/) | Go 基础、并发、高性能、Web |
-| 🔧 **Git** | [`docs/git/`](./docs/git/) | Git 基础、工作流、进阶操作 |
-| 🗄️ **数据库** | [`docs/database/`](./docs/database/) | MySQL / Redis / MongoDB |
-| 🌐 **Nginx** | [`docs/nginx/`](./docs/nginx/) | 基础配置、反向代理、负载均衡、性能优化 |
-| 📝 **面试题** | [`docs/interview/`](./docs/interview/) | JavaScript / CSS / ES / Engineering / Browser |
-| 📚 **英语** | [`docs/english/`](./docs/english/) | 语法、听力、阅读、词汇 |
+| 模块          | 路径                                   | 主要内容                                                                                                                          |
+| ------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 🖥️ **前端**   | [`docs/web/`](./docs/web/)             | JavaScript / TypeScript / ES6+ / React / React 生态 / Vue 生态 / 样式 / 浏览器 / 网络 / 架构 / 工程化 / 桌面端 / Node.js / 小程序 |
+| ☕ **Java**   | [`docs/java/`](./docs/java/)           | Java 基础、Spring、Spring Boot、MyBatis                                                                                           |
+| 🐍 **Python** | [`docs/python/`](./docs/python/)       | Python 基础、数据科学、机器学习、自动化脚本                                                                                       |
+| 🔧 **Git**    | [`docs/git/`](./docs/git/)             | Git 基础、工作流、进阶操作                                                                                                        |
+| 🗄️ **数据库** | [`docs/database/`](./docs/database/)   | MySQL / Redis / MongoDB                                                                                                           |
+| 🌐 **Nginx**  | [`docs/nginx/`](./docs/nginx/)         | 基础配置、反向代理、负载均衡、性能优化                                                                                            |
+| 📝 **面试题** | [`docs/interview/`](./docs/interview/) | JavaScript / CSS / ES / Engineering / Browser                                                                                     |
 
 ### 前端模块细分
 
-| 子模块 | 路径 | 说明 |
-| ---- | ---- | ---- |
-| JavaScript | [`docs/web/JavaScript/`](./docs/web/JavaScript/) | JS 基础、TypeScript、ES6+ 新特性 |
-| React | [`docs/web/react/`](./docs/web/react/) | 基础、Hooks、进阶、模式、性能、React 19、测试 |
-| React 生态 | [`docs/web/react-ecosystem/`](./docs/web/react-ecosystem/) | Next.js、React Query、React Router、Redux、Zustand |
-| Vue 生态 | [`docs/web/vue-ecosystem/`](./docs/web/vue-ecosystem/) | Vue 2、Vue 3、源码学习、Pinia、Vue Router |
-| 样式 | [`docs/web/styles/`](./docs/web/styles/) | CSS、Less、Sass、Tailwind、现代 CSS 方案 |
-| 浏览器 | [`docs/web/browser/`](./docs/web/browser/) | 原理、Web API、性能、存储 |
-| 网络 | [`docs/web/network/`](./docs/web/network/) | HTTP、HTTPS、WebSocket、安全 |
-| 架构 | [`docs/web/architecture/`](./docs/web/architecture/) | 设计模式、架构模式、代码规范、测试 |
-| 工程化 | [`docs/web/engineering/`](./docs/web/engineering/) | Webpack、Vite、Rollup、包管理、CI/CD、代码质量 |
-| 桌面端 | [`docs/web/desktop/`](./docs/web/desktop/) | Electron、Tauri、NW.js、Flutter、Wails、Qt、React Native |
-| Node.js | [`docs/web/nodejs/`](./docs/web/nodejs/) | 基础、Express、Koa、NestJS、数据库、工程化 |
-| 小程序 | [`docs/web/miniprogram/`](./docs/web/miniprogram/) | 创建、结构、开发、部署、跨端 |
+| 子模块     | 路径                                                       | 说明                                                     |
+| ---------- | ---------------------------------------------------------- | -------------------------------------------------------- |
+| JavaScript | [`docs/web/JavaScript/`](./docs/web/JavaScript/)           | JS 基础、TypeScript、ES6+ 新特性                         |
+| React      | [`docs/web/react/`](./docs/web/react/)                     | 基础、Hooks、进阶、模式、性能、React 19、测试            |
+| React 生态 | [`docs/web/react-ecosystem/`](./docs/web/react-ecosystem/) | Next.js、React Query、React Router、Redux、Zustand       |
+| Vue 生态   | [`docs/web/vue-ecosystem/`](./docs/web/vue-ecosystem/)     | Vue 2、Vue 3、源码学习、Pinia、Vue Router                |
+| 样式       | [`docs/web/styles/`](./docs/web/styles/)                   | CSS、Less、Sass、Tailwind、现代 CSS 方案                 |
+| 浏览器     | [`docs/web/browser/`](./docs/web/browser/)                 | 原理、Web API、性能、存储                                |
+| 网络       | [`docs/web/network/`](./docs/web/network/)                 | HTTP、HTTPS、WebSocket、安全                             |
+| 架构       | [`docs/web/architecture/`](./docs/web/architecture/)       | 设计模式、架构模式、代码规范、测试                       |
+| 工程化     | [`docs/web/engineering/`](./docs/web/engineering/)         | Webpack、Vite、Rollup、包管理、CI/CD、代码质量           |
+| 桌面端     | [`docs/web/desktop/`](./docs/web/desktop/)                 | Electron、Tauri、NW.js、Flutter、Wails、Qt、React Native |
+| Node.js    | [`docs/web/nodejs/`](./docs/web/nodejs/)                   | 基础、Express、Koa、NestJS、数据库、工程化               |
+| 小程序     | [`docs/web/miniprogram/`](./docs/web/miniprogram/)         | 创建、结构、开发、部署、跨端                             |
 
 ## 目录结构
 
@@ -100,12 +98,10 @@ autonomy/
 │   ├── web/                  # 前端
 │   ├── java/                 # Java
 │   ├── python/               # Python
-│   ├── go/                   # Go
 │   ├── git/                  # Git
 │   ├── database/             # 数据库
 │   ├── nginx/                # Nginx
 │   ├── interview/            # 面试题
-│   ├── english/              # 英语
 │   └── index.md              # 站点首页
 ├── .github/workflows/deploy.yml  # CI/CD
 ├── package.json
