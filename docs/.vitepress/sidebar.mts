@@ -2226,6 +2226,101 @@ export default {
     },
   ],
 
+  // 桌面端开发
+  "/web/desktop/": [
+    {
+      text: "桌面端开发",
+      items: [{ text: "总览与学习路线", link: "/web/desktop/" }],
+    },
+    {
+      text: "Web 技术栈",
+      collapsed: false,
+      items: [
+        { text: "01 Electron", link: "/web/desktop/01-electron/" },
+        { text: "02 Tauri", link: "/web/desktop/02-tauri/" },
+        { text: "03 NW.js", link: "/web/desktop/03-nwjs/" },
+        { text: "05 Wails", link: "/web/desktop/05-wails/" },
+      ],
+    },
+    {
+      text: "自绘 UI / 原生",
+      collapsed: true,
+      items: [
+        {
+          text: "04 Flutter Desktop",
+          link: "/web/desktop/04-flutter-desktop/",
+        },
+        { text: "06 Qt", link: "/web/desktop/06-qt/" },
+      ],
+    },
+    {
+      text: "移动端扩展",
+      collapsed: true,
+      items: [
+        { text: "07 React Native", link: "/web/desktop/07-react-native/" },
+      ],
+    },
+  ],
+
+  // JavaScript 模块
+  "/web/JavaScript/": [
+    {
+      text: "JavaScript 相关",
+      items: [{ text: "总览与学习路线", link: "/web/JavaScript/" }],
+    },
+    {
+      text: "JavaScript",
+      collapsed: false,
+      items: [
+        { text: "JS 入门", link: "/web/JavaScript/javascript/" },
+        { text: "01 基础", link: "/web/JavaScript/javascript/01-basics/" },
+        {
+          text: "02 函数与作用域",
+          link: "/web/JavaScript/javascript/02-functions/",
+        },
+        {
+          text: "03 对象与原型",
+          link: "/web/JavaScript/javascript/03-objects/",
+        },
+        { text: "04 异步编程", link: "/web/JavaScript/javascript/04-async/" },
+        {
+          text: "06 数组方法与高阶函数",
+          link: "/web/JavaScript/javascript/06-arrays/",
+        },
+        { text: "07 模块化", link: "/web/JavaScript/javascript/07-modules/" },
+        {
+          text: "08 最佳实践",
+          link: "/web/JavaScript/javascript/08-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "TypeScript",
+      collapsed: true,
+      items: [
+        { text: "TS 入门", link: "/web/JavaScript/typescript/" },
+        { text: "01 基础", link: "/web/JavaScript/typescript/01-basics/" },
+        { text: "02 类型系统", link: "/web/JavaScript/typescript/02-types/" },
+        { text: "03 进阶", link: "/web/JavaScript/typescript/03-advanced/" },
+        {
+          text: "04 最佳实践",
+          link: "/web/JavaScript/typescript/04-best-practices/",
+        },
+      ],
+    },
+    {
+      text: "ES6+ 新特性",
+      collapsed: true,
+      items: [
+        { text: "ES6+ 入门", link: "/web/JavaScript/es6/" },
+        { text: "01 核心特性", link: "/web/JavaScript/es6/01-core/" },
+        { text: "02 现代特性", link: "/web/JavaScript/es6/02-modern/" },
+        { text: "03 内置扩展", link: "/web/JavaScript/es6/03-builtins/" },
+        { text: "04 实战练习", link: "/web/JavaScript/es6/04-practice/" },
+      ],
+    },
+  ],
+
   // 样式模块-首页
   "/web/styles/": [
     {
