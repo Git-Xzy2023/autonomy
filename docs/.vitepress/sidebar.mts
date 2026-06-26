@@ -2611,7 +2611,94 @@ export default {
     },
   ],
 
-  // React 生态
+  // Vue 生态
+  "/web/vue-ecosystem/": [
+    {
+      text: "Vue 生态",
+      items: [{ text: "生态总览", link: "/web/vue-ecosystem/" }],
+    },
+    {
+      text: "Vue 2",
+      collapsed: false,
+      items: [
+        { text: "Vue 2 学习指南", link: "/web/vue-ecosystem/vue2/" },
+        {
+          text: "01 基础与组件",
+          link: "/web/vue-ecosystem/vue2/01-basics/",
+        },
+        {
+          text: "02 进阶与最佳实践",
+          link: "/web/vue-ecosystem/vue2/02-advanced/",
+        },
+      ],
+    },
+    {
+      text: "Vue 3",
+      collapsed: false,
+      items: [
+        { text: "Vue 3 学习指南", link: "/web/vue-ecosystem/vue3/" },
+        {
+          text: "01 Composition API 进阶",
+          link: "/web/vue-ecosystem/vue3/01-composition-advanced/",
+        },
+        {
+          text: "02 响应式原理",
+          link: "/web/vue-ecosystem/vue3/02-reactivity/",
+        },
+        {
+          text: "03 新特性与迁移",
+          link: "/web/vue-ecosystem/vue3/03-new-features/",
+        },
+      ],
+    },
+    {
+      text: "Vue 源码",
+      collapsed: true,
+      items: [
+        { text: "源码学习指南", link: "/web/vue-ecosystem/source-code/" },
+        {
+          text: "01 响应式源码",
+          link: "/web/vue-ecosystem/source-code/01-reactivity/",
+        },
+        {
+          text: "02 虚拟 DOM 与 Diff",
+          link: "/web/vue-ecosystem/source-code/02-virtual-dom/",
+        },
+        {
+          text: "03 编译器原理",
+          link: "/web/vue-ecosystem/source-code/03-compiler/",
+        },
+      ],
+    },
+    {
+      text: "Vue Router",
+      collapsed: true,
+      items: [
+        {
+          text: "Vue Router 路由管理",
+          link: "/web/vue-ecosystem/vue-router/",
+        },
+      ],
+    },
+    {
+      text: "Pinia",
+      collapsed: true,
+      items: [{ text: "Pinia 状态管理", link: "/web/vue-ecosystem/pinia/" }],
+    },
+    {
+      text: "Vuex",
+      collapsed: true,
+      items: [{ text: "Vuex 状态管理", link: "/web/vue-ecosystem/vuex/" }],
+    },
+    {
+      text: "VueUse",
+      collapsed: true,
+      items: [
+        { text: "VueUse 组合式工具库", link: "/web/vue-ecosystem/vueuse/" },
+      ],
+    },
+  ],
+
   "/web/react-ecosystem/": [
     {
       text: "React 生态",

@@ -84,6 +84,7 @@
 | `/web/engineering/` | ✅ 已配置 | ✅ 普通文档 |
 | `/web/browser/` | ✅ 已配置 | ✅ 普通文档 |
 | `/web/network/` | ✅ 已配置 | ✅ 普通文档 |
+| `/web/vue-ecosystem/` | ✅ 已配置 | ✅ 普通文档（Vue2/Vue3/源码/生态库） |
 | `/web/styles/` | ⚠️ 待检查 | ⚠️ 待检查 |
 | `/web/nodejs/` | ✅ 已配置 | ⚠️ 待检查 |
 | `/web/miniprogram/` | ✅ 已配置 | ⚠️ 待检查 |
